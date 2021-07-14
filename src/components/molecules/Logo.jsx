@@ -15,7 +15,7 @@ export const LogoHeadingWrapper = styled.h1`
 `;
 
 export const LinkWrapper = styled.a`
-  float: left:
+  float: left;
   width: 100%;
   height: 100%;
 `;
