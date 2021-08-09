@@ -5,13 +5,14 @@ import { colors } from '../../theme';
 import { respCss } from '../../helper';
 
 export const ContentWrapper = styled.div`
-  line-height: 2rem;
   color: ${(props) => props.color};
   font-family: inherit;
-  font-size: 1.6rem;
-  line-height: 2.8rem;
+  font-size: ${(props) => props.size};
+  line-height: ${(props) => props.lineHeight};
+  letter-spacing: ${(props) => props.letterSpacing};
   font-weight: 400;
-  max-width: 700px;
+  max-width: 570px;
+  margin: ${(props) => (props.margin ? props.margin : '30px 0 40px')};
 
   ${css`
     ${(props) => respCss('padding', props.padding)}
@@ -22,11 +23,18 @@ export const ContentWrapper = styled.div`
   `}
 `;
 
-export const Content = (props) => {
-  const parsedContent = parse(props.body);
+export const Content = ({ body, color, padding, letterSpacing, lineHeight, size, margin }) => {
+  const parsedContent = parse(body);
 
   return (
-    <ContentWrapper color={props.color} padding={props.padding}>
+    <ContentWrapper
+      color={color}
+      padding={padding}
+      size={size}
+      lineHeight={lineHeight}
+      letterSpacing={letterSpacing}
+      margin={margin}
+    >
       {parsedContent}
     </ContentWrapper>
   );
