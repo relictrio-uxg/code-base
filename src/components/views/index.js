@@ -1,6 +1,7 @@
 import React from 'react';
-import Layout from '../molecules/Layout';
+import Benifits from '../molecules/benifits';
 import Main from '../molecules/main';
+import Technologies from '../molecules/technologies';
 
 
 
@@ -9,6 +10,8 @@ function HireDeveloper(){
     return(
        <div>
            <Main />
+           <Benifits />
+           <Technologies />
        </div>
        
     )

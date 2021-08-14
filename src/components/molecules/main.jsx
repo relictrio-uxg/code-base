@@ -10,7 +10,6 @@ class Main extends Component{
     const Body = styled.h1`
     width:100%;
     height:600px;
-    padding:80px 0px 0px 150px;
     background:#F3F7FC;
   `;
 
@@ -41,7 +40,7 @@ const SecondColumn = styled.div`
 `
     return(
       <Body>
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gridGap: 20 }}>
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gridGap: 100, padding:'0px 0px 0px 150px' }}>
         <FirstColumn>
          <MianHeading>
          Hire Developer Across Technologies
