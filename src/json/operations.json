@@ -1,0 +1,54 @@
+{
+  "left": {
+    "heading": "INTRODUCING ODC",
+    "subHeading": "Making smart decision is hard",
+    "content": "Want to know more about ODC or want to set up the ODC based on your requirements!",
+    "buttonText": "Know More",
+    "desktopsrcfile": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2021/04/Webp.net-compress-image-2.jpg?time=1622425898",
+    "mobilesrcfile": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/smart__decision__mobile.png?time=1622425898"
+  },
+  "right": [
+    {
+      "imageSrc": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/operations__icon.png?time=1622425898",
+      "imageBg": "rgba(255, 86, 112, 0.2)",
+      "heading": "Operational and Managerial Control",
+      "bodyContent": "When you opt for ODC, you can manage it like you are managing your own IT department. You set the rules and regulations. The ODC team adheres to your schedules, timelines and desired deliverables.",
+      "borderBottomColor": "#ff5670"
+    },
+    {
+      "imageSrc": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/timezone__icon.png?time=1622425898",
+      "imageBg": "rgba(253, 180, 0, 0.2)",
+      "heading": "Time zone benefits",
+      "bodyContent": "We have a fully functional ODC which is working round the clock. The developers will adhere to the work timings you decide on. Irrespective of the time zone differences, we work on a 24 hours basis catering to our client’s needs.",
+      "borderBottomColor": "#fdb400"
+    },
+    {
+      "imageSrc": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/longrun__icon.png?time=1622425898",
+      "imageBg": "rgba(253, 180, 0, 0.2)",
+      "heading": "Retainable Engagement",
+      "bodyContent": "RELICTRIO aims to be your long-term offshore partner. With the global economy going up and down, ODC proves to be an answer for all your IT needs. Even in a pandemic situation, management of work becomes way easier when you have an offshore partner to cater to all your development requirements.",
+      "borderBottomColor": "#fdb400"
+    },
+    {
+      "imageSrc": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/quality__icon-1.png?time=1622425898",
+      "imageBg": "rgba(60, 80, 224, 0.2)",
+      "heading": "Remarkable Quality of Work",
+      "bodyContent": "Quality is something which cannot be compromised. Our RELICTRIO ODC have long-term relationships with our clients. We maintain our working relationship by asking for continuous feedback and we take good care of their best interests by fine-tuning our processes.",
+      "borderBottomColor": "#3c50e0"
+    },
+    {
+      "imageSrc": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/team__icon.png?time=1622425898",
+      "imageBg": "rgba(59,190,115,0.2)",
+      "heading": "Personalized development team",
+      "bodyContent": "With your own personal development team, you can decide the structure, the schedules, the method of deliverables, and all other management activities. Everything happens as per your planning. There is stability in the team with higher productivity. We ensure the smoothness of the operations.",
+      "borderBottomColor": "#3bbe73"
+    },
+    {
+      "imageSrc": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/security__icon.png?time=1622425898",
+      "imageBg": "rgba(255,86,112,0.2)",
+      "heading": "Security and confidentiality",
+      "bodyContent": "Security policies and confidentiality pointers are defined by you and are taken very seriously. Only the team members will have access to the work area and network security is also catered to.",
+      "borderBottomColor": "#ff5670"
+    }
+  ]
+}

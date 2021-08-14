@@ -7,19 +7,20 @@ import { respCss } from '../../helper';
 export const TextItem = styled.span`
   display: block;
   position: relative;
-  font-size: ${(props) => props.size ? textSize[props.size]['mobile'] : 'inherit'};
-  line-height: ${(props) => props.size ? lineHeight[props.size]['mobile']: 'inherit' };
+  font-size: ${(props) => (props.size ? textSize[props.size]['mobile'] : 'inherit')};
+  line-height: ${(props) => (props.size ? lineHeight[props.size]['mobile'] : 'inherit')};
   font-weight: ${(props) => (props.bold ? props.bold : 'inherit')};
-  color: ${(props) => props.color ? props.color : 'inherit'};
+  color: ${(props) => (props.color ? props.color : 'inherit')};
+  letter-spacing: ${(props) => props.letterSpacing};
 
   @media ${device.tablet} {
-    font-size: ${(props) =>  props.size ? textSize[props.size]['tablet'] : 'inherit'};
-    line-height: ${(props) => props.size ? lineHeight[props.size]['tablet']: 'inherit'};
+    font-size: ${(props) => (props.size ? textSize[props.size]['tablet'] : 'inherit')};
+    line-height: ${(props) => (props.size ? lineHeight[props.size]['tablet'] : 'inherit')};
   }
 
   @media ${device.laptop} {
-    font-size: ${(props) => props.size ? textSize[props.size]['laptop'] : 'inherit'};
-    line-height: ${(props) => props.size ? lineHeight[props.size]['laptop']: 'inherit'};
+    font-size: ${(props) => (props.size ? textSize[props.size]['laptop'] : 'inherit')};
+    line-height: ${(props) => (props.size ? lineHeight[props.size]['laptop'] : 'inherit')};
   }
 
   ${css`
@@ -31,9 +32,29 @@ export const TextItem = styled.span`
   `}
 `;
 
-export const Text = ({ bold, color, margin, size, text, tag, align }) => {
+export const Text = ({
+  bold,
+  color,
+  margin,
+  size,
+  text,
+  tag,
+  align,
+  lineHeight,
+  letterSpacing,
+}) => {
+  console.log(margin);
   return (
-    <TextItem as={tag} size={size} color={color} margin={margin} align={align} bold={bold} >
+    <TextItem
+      as={tag}
+      size={size}
+      color={color}
+      margin={margin}
+      align={align}
+      bold={bold}
+      lineHeight={lineHeight}
+      letterSpacing={letterSpacing}
+    >
       {text}
     </TextItem>
   );
@@ -46,4 +67,5 @@ Text.defaultProps = {
   color: '',
   margin: '10px',
   text: 'lorem ipsum',
+  lineHeight: '',
 };
