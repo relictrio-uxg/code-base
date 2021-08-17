@@ -1,4 +1,4 @@
-import HireDeveloper from './components/views/index';
+import HireDeveloper from './components/views/hireDeveloper';
 
 function App() {
   return (

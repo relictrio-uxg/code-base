@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components'
 import hireadeveloper__bannerimg from '../../assets/img/hireadeveloper__bannerimg.png'
 import Button from '../atoms/Button';
+import Data from '../../json/hireDeveloper.json';
 
 
 
@@ -40,23 +41,25 @@ const SecondColumn = styled.div`
 `
     return(
       <Body>
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gridGap: 100, padding:'0px 0px 0px 150px' }}>
-        <FirstColumn>
-         <MianHeading>
-         Hire Developer Across Technologies
-         </MianHeading>
-         <SubHeading>
-         Do you want to extend your team of developers? Just drop a line of your requirements and we will give you an opportunity 
-         to hire tech developers that are the best fit for your needs.
+       {Data.MainBanner.map(post => {
+        return(
+         <>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gridGap: 100, padding:'0px 0px 0px 150px' }}>
+           <FirstColumn>
+             <MianHeading>{post.head}</MianHeading>
+             <SubHeading>{post.subhead}</SubHeading>
+             <Button />
+           </FirstColumn>
 
-         </SubHeading>
-         <Button />
-        </FirstColumn>
-
-        <SecondColumn>
-            <img src={hireadeveloper__bannerimg} />
-        </SecondColumn>
-      </div>
+           <SecondColumn>
+             <img src={post.img} />
+           </SecondColumn>
+          </div>
+                 
+                  
+        </>
+              )
+          })}
     </Body>
     
     )

@@ -5,6 +5,7 @@ import Button from '../atoms/Button';
 import trustIcon from '../../assets/img/trust-skill__icon.png';
 import recruitmentIcon from '../../assets/img/recruitment__icon.png';
 import integrityIcon from '../../assets/img/integrity__icon.png';
+import Data from '../../json/hireDeveloper.json';
 
 
 class Benifits extends Component{
@@ -26,7 +27,7 @@ class Benifits extends Component{
     border-radius: 12px;
   `
 
-  const FirstColumn = styled.div`
+  const IconColumn = styled.div`
   max-width: 300px;
   margin: 0px 65px 0;
   text-align: center;
@@ -58,12 +59,6 @@ class Benifits extends Component{
   text-align: center;
   color:#536083b0;
   `
-const SecondColumn = styled.div`
-max-width: 300px;
-margin: 0px 70px ;
-text-align: center;
-position: relative;
-`
 const Img = styled.div`
  text-align:center;
 `
@@ -81,40 +76,33 @@ const IconHeading = styled.h4`
 `
     return(
       <Body>
-      <BenigitBody>
-        <div>
-            <Benifitsheading>Benefits of Hiring</Benifitsheading>
-            <Subsheading>Why to Hire Developer?</Subsheading>
-        </div>
-      <div style={{ display: "grid",  padding:'25px 0px 0px 0px', display: 'flex', justifyContent: 'space-around' }}>
-        <FirstColumn>
-         <Img><img src={trustIcon} /></Img>
-         <IconHeading style={{textAlign:'center'}}>
-             Trusted and Skilled Developers
-         </IconHeading>
-         <SubHeading>
-         Hire top-notch and highly skilled developers offshore to reduce the costs and time of delivery.
-         </SubHeading>
-        </FirstColumn>
-
-        <SecondColumn>
-        <Img><img src={recruitmentIcon} /></Img>
-         <IconHeading>No recruitment headache</IconHeading>
-         <SubHeading>
-         Hiring will help you step up and get the work done minus the headache of looking after 
-         the accounts, renting office space, thinking of overheads etc.
-         </SubHeading>
-        </SecondColumn>
-
-        <SecondColumn>
-        <Img><img src={integrityIcon} /></Img>
-         <IconHeading>Integrity & Transparency</IconHeading>
-         <SubHeading>
-         Your information is safe with us. We showcase integrity and transparency in all our dealings. Security will never be a concern.
-         </SubHeading>
-        </SecondColumn>
-      </div>
-      </BenigitBody>
+        {Data.Benifits.map(item => {
+          return(
+            <>
+              <BenigitBody>
+               <div>
+                <Benifitsheading>{item.hiring}</Benifitsheading>
+                <Subsheading>{item.developer}</Subsheading>
+               </div>
+               <div style={{ display: "grid",  padding:'25px 0px 0px 0px', display: 'flex', justifyContent: 'space-around' }}>
+                {item.icondata.map(index => {
+                 return(
+                 <>
+                  <IconColumn>
+                   <Img><img src={index.img} /></Img>
+                   <IconHeading>{index.iconheading}</IconHeading>
+                   <SubHeading>{index.iconsubheading}</SubHeading>
+                  </IconColumn>
+                 </>
+                 )
+                })
+                }
+               </div>
+              </BenigitBody>
+             </>
+              )
+          })}
+   
     </Body>
     
     )
