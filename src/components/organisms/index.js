@@ -1,0 +1,1 @@
+export {default as ODC_bannerPage} from './ODC_bannerPage';

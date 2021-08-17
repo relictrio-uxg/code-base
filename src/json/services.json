@@ -1,0 +1,56 @@
+{
+    "servicesHeading" : [
+        {
+            "subHeading" : "ODC Services",
+            "heading" : "We increase user engagment thereby increasing your ROI",
+            "subPara" : "Companies, be it a start-up or an enterprise, have shown immense trust in our ODC services and have developed innovative and profitable digital products."
+        }
+    ],
+
+    "servicesBlueBlock" : [
+        {
+            "leftImageURL" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/service_image1.png?time=1622425898",
+            "rightSubPara" : "RELICTRIO offers dedicated offshore development teams, infrastructure, and resources to develop, design, test, and support products. Our pool of resources are well versed in recent trends of the market. Their knowhow of user-friendly interfaces and interactions can be the success story of any software or digital product."
+        }
+    ],
+
+    "servicesListBlueBlock" : [
+        {
+            "iconURL" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/dd__center__1.png?time=1622425898",
+            "listInfo" : "Offshore Design & Development Center equiped with facilities to make a great working condition"
+        },
+        {
+            "iconURL" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/dd__center__2.png?time=1622425898",
+            "listInfo" : "Quality Assurance Team that helps in proper deployment of software and digital products"
+        },
+        {
+            "iconURL" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/dd__center__3.png?time=1622425898",
+            "listInfo" : "Offshore Developers based on your requirements, budget, and timeline providing the best end to end experience to user"
+        },
+        {
+            "iconURL" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/dd__center__4.png?time=1622425898",
+            "listInfo" : "Custom Web Development to attract more customers & optimize the business processes"
+        }
+    ],
+
+    "servicesPinkBlock" : [
+        {
+            "rightImageURL" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/service_image2.png?time=1622425898"
+        }
+    ],
+
+    "servicesListPinkBlock" : [
+        {
+            "iconURL" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/dd__center__5.png?time=1622425898",
+            "listInfo" : "Web Application Support & Maintenance for the software application to function reliably and securely a committed support team to solve all the issues"
+        },
+        {
+            "iconURL" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/dd__center__6.png?time=1622425898",
+            "listInfo" : "Cloud Managed Services which enables our end users to get access to more data and automation throughout the development process."
+        },
+        {
+            "iconURL" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/dd__center__7.png?time=1622425898",
+            "listInfo" : "Mobility Solutions that maximizes user engagement and enhances their experience"
+        }
+    ]
+}

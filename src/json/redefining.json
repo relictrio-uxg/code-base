@@ -1,0 +1,41 @@
+{
+    "redefiningBlock" : [
+        {
+            "subHeading" : "REDEFINING ODC",
+            "heading" : "No more usual challenges"
+        }
+    ],
+
+    "block" : [
+        {
+            "desktopsrcfile": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/time__zone__icon.png?time=1622425898",
+            "heading": "Time Zones",
+            "subHeading": "Our work timings are based on what the client wants. We work round the clock. We are always flexible and available."
+        },
+        {
+            "desktopsrcfile": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/communication__icon.png?time=1622425898",
+            "heading": "Communication",
+            "subHeading": "English is widely spoken in India and Bangalore being the IT hub, there is no dearth of finding resources who have experience working with the cross-country resource pool. Also, we keep connected through all the available social means such as video calls, email correspondence and instant messaging."
+        },
+        {
+            "desktopsrcfile": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/pjtmgmt__icon.png?time=1622425898",
+            "heading": "Project Management",
+            "subHeading": "We let the client access the real time data through varied Project Management tools to monitor your deliveries. "
+        },
+        {
+            "desktopsrcfile": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/delayeddeliveries__icon.png?time=1622425898",
+            "heading": "Delayed Deliveries",
+            "subHeading": "Our Offshore Development Center is efficient and reliable. We make sure that work is always done on time, every time."
+        },
+        {
+            "desktopsrcfile": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/scalableResources__icon.png?time=1622425898",
+            "heading": "Scalable Resources",
+            "subHeading": "Possibility of easily upscaling or downscaling of resources according to the project needs or budget."
+        },
+        {
+            "desktopsrcfile": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/requirements__icon.png?time=1622425898",
+            "heading": "Requirements",
+            "subHeading": "We give a lot of importance in gathering information and requirements. We have multiple workshops or have a discovery period for in-depth analysis of business requirements, which is done before the project is developed."
+        }
+    ]
+}

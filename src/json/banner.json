@@ -1,0 +1,25 @@
+{
+    "bannerPage": [ {
+        "bannerHeading" : "Offshore Development center",
+        "bannerContent" : "Would you be surprised if we tell you that you can lessen your development cost with better software quality? Well, it is possible and it can be done by having an Offshore Development Center (ODC).",
+        "bannerImageURL" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/ODC_bannerimg.png?time=1622425898"
+    } ] ,
+    
+    "subRow": [
+        {
+            "desktopsrcfile": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/longTerm__icon.png?time=1622425898",
+            "heading": "Long term engagement",
+            "subHeading": "Offshore Development center are very useful while looking for long term"
+        },
+        {
+            "desktopsrcfile": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/focus__icon.png?time=1622425898",
+            "heading": "Focus on your core business",
+            "subHeading": "Remote You will be able to focus more on the project itself and make your business flourish."
+        },
+        {
+            "desktopsrcfile": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/setup__icon.png?time=1622425898",
+            "heading": "Get your set-upped center",
+            "subHeading": "We offer dedicated offshore development teams, infrastructure based on the requirements"
+        }
+    ]
+}
