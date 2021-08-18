@@ -1,0 +1,58 @@
+{
+    "cardInfo_1" : [
+        {
+            "subHeading" : "BUILD YOUR SMALL TEAM?",
+            "heading" : "Hire developers!",
+            "btnText_1" : "Hire Now",
+            "btnText_2" : "Know More"
+        }
+    ],
+    "cardInfo_1__data" : [
+        {
+            "info" : "Get experienced Developers"
+        },
+        {
+            "info" : "Zero Recruitment Fee"
+        },
+        {
+            "info" : "Flexible hiring options"
+        },
+        {
+            "info" : "Collaborative approach"
+        },
+        {
+            "info" : "Direct access to resources"
+        },
+        {
+            "info" : "Scalable Team size"
+        }
+    ],
+    "cardInfo_2" : [
+        {
+            "subHeading" : "build your own IN house team?",
+            "heading" : "Recruit Candidates!",
+            "btnText_1" : "Recruit Now",
+            "btnText_2" : "Know More"
+        }
+    ],
+    "cardInfo_2__data" : [
+        {
+            "info" : "Get quality resources"
+        },
+        {
+            "info" : "Flexible engagement models"
+        },
+        {
+            "info" : "Direct access to resources"
+        },
+        {
+            "info" : "Collaborative approach"
+        },
+        {
+            "info" : "No hidden charges"
+        },
+        {
+            "info" : "Efficient communication"
+        }
+    ]
+}

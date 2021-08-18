@@ -1,0 +1,18 @@
+{
+    "getInTouch_left" : [
+        {
+            "heading" : "Let’s get in touch",
+            "subHeading" : "Our team is happy to answer your sales questions. Fill out the form and we’ll be in touch as soon as possible."
+        }
+    ],
+    "getInTouch_right" : [
+        {
+            "name" : "Name",
+            "email" : "Email",
+            "select" : "Select Location",
+            "number" : "Mobile Number",
+            "msg" : "Your Message (Optional)",
+            "btnTxt" : "Send"
+        }
+    ]
+}

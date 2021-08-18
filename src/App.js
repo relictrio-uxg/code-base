@@ -7,7 +7,9 @@ function App() {
   return (
     <>
       <Router>
+        <Switch>
         <Route path="/ODC" exact component={ODC_banner} />
+        </Switch>
       </Router>
     </>
   );

@@ -5,3 +5,5 @@ export { default as ODC_services } from './ODC_services';
 export { default as ODC_services_blue } from './ODC_services_blue';
 export { default as ODC_services_pink } from './ODC_services_pink';
 export { default as ODC_knowMore } from './ODC_knowMore';
+export { default as ODC_card } from './ODC_card';
+export { default as ODC_getInTouch } from './ODC_getInTouch';
