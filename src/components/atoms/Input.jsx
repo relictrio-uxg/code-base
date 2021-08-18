@@ -13,19 +13,15 @@ font-size: 16px;
 line-height: 28px;
 color: rgba(255, 255, 255, 0.6);
 width: 100%;
-font-family: "Inter-Regular",Helvetica,Arial,Verdana,Tahoma,sans-serif;;
+font-family: "Inter-Regular",Helvetica,Arial,Verdana,Tahoma,sans-serif;
+color:white !important;
 `;
 
 export const Input = ({ bg, color, placeholder, value, type }) => {
   return (
-    <InputWrapper color={color} bg={bg} placeholder={placeholder} type={type}>
+    <InputWrapper bg={bg} placeholder={placeholder} type={type}>
     </InputWrapper>
   );
 };
 
-Input.defaultProps = {
-  placeholder: '',
-  color:'white',
-  value: '',
-  type: ''
-};
+

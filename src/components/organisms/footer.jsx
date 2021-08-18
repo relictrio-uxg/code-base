@@ -1,5 +1,5 @@
 import React from 'react';
-import FooterList from '../molecules/footerList';
+import {FooterList} from '../molecules';
 
 
 function Footer(){

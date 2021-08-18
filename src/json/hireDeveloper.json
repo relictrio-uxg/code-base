@@ -156,59 +156,73 @@
   ],
     
 
-
   "footer":[
     {
-      "head":"UXG",
-      "address":"Horamavu Main Road, Bengaluru - 560043, Karnataka, India"
-    },
-    {
-     "head":"Contact us",
-      "list":[
+       "firstcol":[
         {
-          "icon":"https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/themes/UXGURUS/images/call__icon.svg",
-          "mobile":"+91-9000000000"
-        },
+          "head":"UXG",
+          "address":"Horamavu Main Road, Bengaluru - 560043, Karnataka, India"
+        }  
+       ],
+       "secondcol":[
         {
-          "icon":"https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/themes/UXGURUS/images/mail__icon.svg",
-          "mobile":"contact@uxg.com"
+          "head":"Contact us",
+          "secondlist":[
+            {
+              "icon":"https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/themes/UXGURUS/images/call__icon.svg",
+              "mobile":"+91-9000000000"
+            },
+            {
+              "icon":"https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/themes/UXGURUS/images/mail__icon.svg",
+              "contact":"contact@uxg.com"
+            }
+          ] 
         }
-      ]
-    },
-    {
-      "head":"Follow us",
-      "list":[
+       ],
+       "thirdcol":[
         {
-          "icon":"https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/themes/UXGURUS/images/linkedin__icon.svg",
-          "linkedin":"LinkedIn"
-        },
-        {
-          "icon":"https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/themes/UXGURUS/images/twitter__icon.svg",
-          "twitter":"Twitter"
-        },
-        {
-          "icon":"https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/themes/UXGURUS/images/fb__icon.svg",
-          "facebook":"Facebook"
-        },
-        {
-          "icon":"https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/themes/UXGURUS/images/insta__icon.svg",
-          "instagram":"Instagram"
+          "head":"Follow us",
+          "thirdlist":[
+            {
+              "icon":"https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/themes/UXGURUS/images/linkedin__icon.svg",
+              "socilamedia":"LinkedIn"
+            },
+            {
+              "icon":"https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/themes/UXGURUS/images/twitter__icon.svg",
+              "socilamedia":"Twitter"
+            },
+            {
+              "icon":"https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/themes/UXGURUS/images/fb__icon.svg",
+              "socilamedia":"Facebook"
+            },
+            {
+              "icon":"https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/themes/UXGURUS/images/insta__icon.svg",
+              "socilamedia":"Instagram"
+            }
+          ]
         }
-      ]
-    },
-    {
-      "head":"Quick Links",
-      "list":[
-        { "home":"Home" },
-        { "recruitment":"Recruitment" },
-        { "odcServices":"ODC Services" },
-        { "hireDeveloper":"Hire a Developer" },
-        { "blogs":"Blogs" },
-        { "Career":"Career" },
-        { "about":"About us" }
-      ]
-    }
-  ]
+       ],
+       "forthcol":[
+        {
+          "head":"Quick Links",
+          "forthlist":[
+            { "links":"Home" },
+            { "links":"Recruitment" },
+            { "links":"ODC Services" },
+            { "links":"Hire a Developer" },
+            { "links":"Blogs" },
+            { "links":"Career" },
+            { "links":"About us" }
+          ]
+        }
+       ]
+      
+
+      }
+      
+]
+
+  
 
 
 

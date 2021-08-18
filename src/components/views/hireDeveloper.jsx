@@ -1,11 +1,11 @@
 import React from 'react';
 
-import Body from '../organisms/body';
-import Footer from '../organisms/footer';
+import { Body, Footer } from '../organisms';
 
 
 
 function HireDeveloper(){
+
     console.log('Hire-Developer')
     return(
        <div>

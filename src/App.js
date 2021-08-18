@@ -1,9 +1,16 @@
 import HireDeveloper from './components/views/hireDeveloper';
+import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+
 
 function App() {
   return (
     <div className="App">
-     <HireDeveloper />
+      <Router>
+        <Switch>
+          <Route path="/hire-developers" component={HireDeveloper}/>
+        </Switch>
+      </Router>
+    
     </div>
   );
 }
