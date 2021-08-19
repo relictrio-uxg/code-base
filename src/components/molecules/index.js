@@ -7,3 +7,4 @@ export { default as ODC_services_pink } from './ODC_services_pink';
 export { default as ODC_knowMore } from './ODC_knowMore';
 export { default as ODC_card } from './ODC_card';
 export { default as ODC_getInTouch } from './ODC_getInTouch';
+export { default as ODC_header } from './ODC_header';

@@ -13,7 +13,8 @@ import {
     ODC_services_pink,
     ODC_knowMore,
     ODC_card,
-    ODC_getInTouch
+    ODC_getInTouch,
+    ODC_header
 } from '../molecules';
 
 const Container = styled.div`
@@ -24,6 +25,7 @@ width: 100%;
 const ODC_Body = () => {
     return (
         <>
+            <ODC_header/>
             <Container>
                 <ODC_banner />
                 {BannerData.subRow.map((banner) => (

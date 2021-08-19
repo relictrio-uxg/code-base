@@ -7,7 +7,7 @@ const ContainerInner = styled.div`
 width: 80%;
 margin: 0 auto;
 display: flex;
-padding-top: 100px;
+padding-top: 150px;
 `;
 
 const Uxgbanner__left = styled.div`
