@@ -4,6 +4,7 @@ import hireadeveloper__bannerimg from '../../assets/img/hireadeveloper__bannerim
 import Button from '../atoms/Button';
 import Data from '../../json/hireDeveloper.json';
 import { Input } from '../atoms/Input';
+import SendBtn from '../atoms/SendBtn';
 
 
 
@@ -105,7 +106,9 @@ color:white
                    </div>
                  </div>
                  <Input placeholder={form.YourMessage}/>
-             
+                <div style={{marginTop:'30px'}}>
+                  <SendBtn />
+                </div>
             </Form>
                 </>
               )

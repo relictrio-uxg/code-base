@@ -64,6 +64,21 @@ font-size: 16px;
     width:200px;
     line-height:0;
 `
+const FooterBottom = styled.div`
+font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+    color: rgba(83, 96, 131, 0.8);
+    mix-blend-mode: normal;
+    font-family:"Inter-Regular",Helvetica,Arial,Verdana,Tahoma,sans-serif;
+    height:100px;
+    padding-left:150px;
+    background:#EFF5FC;
+`
+const BottomText = styled.ul`
+padding-left:70px;
+float:left;
+`
     return(
       <Body>
         {Data.footer.map(item => {
@@ -147,6 +162,24 @@ font-size: 16px;
                     })}
                 </FooterCol>
                </div>
+               <FooterBottom>
+                   {item.bottomfooter.map(index => {
+                       return(
+                           <>
+                           <BottomText>
+                            {index.copyRights}
+                            </BottomText>
+                            <BottomText>
+                            {index.Terms}
+                             </BottomText>
+                             <BottomText>
+                            {index.Privacy}
+                            </BottomText>
+                            
+                           </>
+                       )
+                   })}
+               </FooterBottom>
               </BenigitBody>
              </>
               )

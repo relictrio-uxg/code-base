@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import styled from 'styled-components'
 import Button from '../atoms/Button';
 import Data from '../../json/hireDeveloper.json';
+import RequestBtn from '../atoms/RequestBtn';
+import MoreBtn from '../atoms/Morebtn';
 
 
 
@@ -91,6 +93,10 @@ const Li = styled.li`
                     )
                    }
                   )}
+                  <div style={{marginTop:'50px'}}>
+                  <RequestBtn />
+                  <MoreBtn />
+                  </div>
                 </Card>
           {post.SecondCard.map(heading => {
             return(
@@ -108,6 +114,10 @@ const Li = styled.li`
                  )
                 }
                 )}
+                 <div style={{marginTop:'50px'}}>
+                  <RequestBtn />
+                  <MoreBtn />
+                  </div>
               </Card>
              </>
               )

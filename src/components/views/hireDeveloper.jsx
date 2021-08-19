@@ -4,16 +4,23 @@ import { Body, Footer } from '../organisms';
 
 
 
-function HireDeveloper(){
+function HireDeveloper(props){
 
     console.log('Hire-Developer')
     return(
        <div>
-           <Body/>
+            { !props.preview && <> 
+                <Body/>
+            </>}
+          
            <Footer />
        </div>
        
     )
 }
+
+HireDeveloper.defaultProps = {
+    selected: false,
+  };
 
 export default HireDeveloper;

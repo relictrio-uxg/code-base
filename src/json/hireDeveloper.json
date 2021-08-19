@@ -215,10 +215,18 @@
             { "links":"About us" }
           ]
         }
-       ]
+       ],
+       
+        "bottomfooter":[
+          { "copyRights":"Copyright @ relictrio 2015-2020" },
+          { "Terms": "Terms & Conditions" },
+          { "Privacy":"Privacy Policy" }
+        ]
       
 
       }
+
+    
       
 ]
 

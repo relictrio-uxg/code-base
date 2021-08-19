@@ -3,7 +3,7 @@ import { Benifits, Card, FurtherDetails, GetInTouch, Main, Technologies, WhyUs} 
 
 
 
-function Body(){
+function Body(props){
     return(
         <div>
           <Main />
@@ -16,5 +16,8 @@ function Body(){
         </div>
     )
 }
+
+Body.defaultProps = {
+};
 
 export default Body;

@@ -1,4 +1,4 @@
-export { default as Benifits } from './benifits';
+export { Benifits } from './benifits';
 export { default as Card } from './card';
 export { default as FurtherDetails } from './furtherDetails';
 export { default as GetInTouch } from './get_in_touch';
