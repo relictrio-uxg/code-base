@@ -8,3 +8,4 @@ export { default as ODC_knowMore } from './ODC_knowMore';
 export { default as ODC_card } from './ODC_card';
 export { default as ODC_getInTouch } from './ODC_getInTouch';
 export { default as ODC_header } from './ODC_header';
+export { default as ODC_footer } from './ODC_footer';
