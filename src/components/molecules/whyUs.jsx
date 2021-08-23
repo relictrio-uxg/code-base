@@ -12,6 +12,11 @@ class WhyUs extends Component{
         width:100%;
         height:700px;
         margin-top:-25px;
+        @media only screen and (max-width: 600px) {
+          padding:0px;
+  margin-top:0px;
+  display:block;
+        }
       `;
     
       const WhyUs = styled.div`
@@ -20,10 +25,23 @@ class WhyUs extends Component{
         padding:100px 0px;
         display: flex;
     justify-content: space-around;
+    @media only screen and (max-width: 600px) {
+      
+          margin-left:0px;
+          flex-direction:column;
+          display:block;
+    }
     `
 
       const LeftCol = styled.div`
        width:500px;
+       @media only screen and (max-width: 600px) {
+          width:100%;
+          display:flex;
+          justify-content:center;
+          display:block;
+          display:none;
+      }
       `
     
       const RightCol = styled.div`
@@ -31,6 +49,10 @@ class WhyUs extends Component{
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
       margin: 20px 0;
+      @media only screen and (max-width: 600px) {
+          flex-direction:column;
+          
+      }
       `
     
       const Benifitsheading = styled.h4`
@@ -40,6 +62,9 @@ class WhyUs extends Component{
       text-transform: uppercase;
       font-family:"Gilroy-Bold",Helvetica,Arial,Verdana,Tahoma,sans-serif;;
       color:#3c50e0;
+      @media only screen and (max-width: 600px) {
+          
+      }
       `
     
       const Subsheading = styled.h4`
@@ -47,24 +72,35 @@ class WhyUs extends Component{
       line-height: 60px;
       color: #00005c;
       margin: 25px 0 0;
-      font-family: "Gilroy-SemiBold",Helvetica,Arial,Verdana,Tahoma,sans-serif;;
+      font-family: "Gilroy-SemiBold",Helvetica,Arial,Verdana,Tahoma,sans-serif;
+      @media only screen and (max-width: 600px) {
+          
+      }
       `
       const SubHeading = styled.h3`
   font-size: 14px;
   font-weight:500;
   line-height: 22px;
   color:#536083b0;
+  @media only screen and (max-width: 600px) {
+          
+  }
   `
     const SecondColumn = styled.div`
     max-width: 300px;
     margin: 0px 70px ;
     position: relative;
+    @media only screen and (max-width: 600px) {
+          
+    }
     `
     const Img = styled.div`
      text-align:left;
      width: 88px;
     height: 48px;
-    
+    @media only screen and (max-width: 600px) {
+          
+    }
     `
     const IconHeading = styled.h4`
     font-size: 24px;
@@ -74,12 +110,18 @@ class WhyUs extends Component{
     color:#00005c;
     margin: 30px 0;
     font-family:"Gilroy-SemiBold",Helvetica,Arial,Verdana,Tahoma,sans-serif;
+    @media only screen and (max-width: 600px) {
+          
+    }
 `
 
     const IconColumn = styled.div`
     max-width: 250px;
     margin: 30px 55px 0;
     position: relative;
+    @media only screen and (max-width: 600px) {
+          
+    }
     `
     const Paragraph = styled.p`
     font-size: 16px;
@@ -89,14 +131,24 @@ class WhyUs extends Component{
     margin: 30px 140px 30px 0px;
     font-weight:500;
     font-family:"Inter-Regular",Helvetica,Arial,Verdana,Tahoma,sans-serif;
+    @media only screen and (max-width: 600px) {
+          
+    }
     `
+const Columns = styled.div`
+display: grid;
+padding:25px 0px 0px 0px; 
+display: flex; 
+justify-content: space-around; 
+`
+
      return(
        <Body>
         <WhyUs>
           {Data.whyus.map(item => {
            return(
             <>
-             <div style={{ display: "grid",  padding:'25px 0px 0px 0px', display: 'flex', justifyContent: 'space-around' }}>
+             <Columns>
               <LeftCol>
                 <Benifitsheading>{item.heading}</Benifitsheading>
                 <Subsheading>{item.subheading}</Subsheading>
@@ -117,7 +169,7 @@ class WhyUs extends Component{
          
           }
           </RightCol>
-          </div>
+          </Columns>
 
                 {/* <div style={{ display: "grid", padding:'0px 0px 0px 100px', }}>
             <FirstColumn>

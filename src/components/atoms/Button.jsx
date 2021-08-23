@@ -17,7 +17,15 @@ class Button extends Component{
     letter-spacing: .142857px;
     width:150px;
     cursor: pointer;
-    font-family: "Gilroy-SemiBold",Helvetica,Arial,Verdana,Tahoma,sans-serif;;
+    font-family: "Gilroy-SemiBold",Helvetica,Arial,Verdana,Tahoma,sans-serif;
+    @media only screen and (max-width: 600px) {
+      font-size: 14px!important;
+      line-height: 16px!important;
+      letter-spacing: .142857px!important;
+      padding: 15px;
+    min-width: 150px;
+}
+    }
   `;
     return(
      <ButtonWrapper>

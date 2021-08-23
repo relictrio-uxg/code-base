@@ -7,12 +7,12 @@ function Body(props){
     return(
         <div>
           <Main />
-          <Benifits />
-          <Technologies />
+           <Benifits />
+          {/* <Technologies /> */}
           <WhyUs />
-          <FurtherDetails />
+        {/*  <FurtherDetails />
           <Card />
-          <GetInTouch />
+          <GetInTouch /> */}
         </div>
     )
 }

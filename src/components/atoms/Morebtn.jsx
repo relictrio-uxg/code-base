@@ -12,7 +12,7 @@ class MoreBtn extends Component{
     text-align: center;
     letter-spacing: .142857px;
     padding: 20px 10px;
-    color: #3c50e0;
+    color: #3c50e0;            
     float:right;
     font-size: 16px;
     min-width: 155px;
