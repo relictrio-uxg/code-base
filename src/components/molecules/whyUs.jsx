@@ -14,8 +14,9 @@ class WhyUs extends Component{
         margin-top:-25px;
         @media only screen and (max-width: 600px) {
           padding:0px;
-  margin-top:0px;
+  margin-top:100px;
   display:block;
+  height:900px;
         }
       `;
     
@@ -26,10 +27,11 @@ class WhyUs extends Component{
         display: flex;
     justify-content: space-around;
     @media only screen and (max-width: 600px) {
-      
+      width:100%;
           margin-left:0px;
           flex-direction:column;
           display:block;
+          
     }
     `
 
@@ -40,7 +42,9 @@ class WhyUs extends Component{
           display:flex;
           justify-content:center;
           display:block;
-          display:none;
+         width:100%;
+         display:grid;
+         display:none;
       }
       `
     
@@ -51,7 +55,7 @@ class WhyUs extends Component{
       margin: 20px 0;
       @media only screen and (max-width: 600px) {
           flex-direction:column;
-          
+          margin: 20px 0;
       }
       `
     
@@ -86,20 +90,15 @@ class WhyUs extends Component{
           
   }
   `
-    const SecondColumn = styled.div`
-    max-width: 300px;
-    margin: 0px 70px ;
-    position: relative;
-    @media only screen and (max-width: 600px) {
-          
-    }
-    `
+    
     const Img = styled.div`
      text-align:left;
      width: 88px;
     height: 48px;
     @media only screen and (max-width: 600px) {
-          
+      width: 48px;
+      height: 48px;
+      margin: 8px;
     }
     `
     const IconHeading = styled.h4`
@@ -111,7 +110,12 @@ class WhyUs extends Component{
     margin: 30px 0;
     font-family:"Gilroy-SemiBold",Helvetica,Arial,Verdana,Tahoma,sans-serif;
     @media only screen and (max-width: 600px) {
-          
+      font-size: 18px;
+      line-height: 24px;
+      display: flex;
+      align-items: center;
+      letter-spacing: .025em;
+      margin: 20px 0 10px;
     }
 `
 
@@ -120,7 +124,9 @@ class WhyUs extends Component{
     margin: 30px 55px 0;
     position: relative;
     @media only screen and (max-width: 600px) {
-          
+      max-width: 300px;
+      margin: 15px 20px ;
+      position: relative;    
     }
     `
     const Paragraph = styled.p`
@@ -132,7 +138,10 @@ class WhyUs extends Component{
     font-weight:500;
     font-family:"Inter-Regular",Helvetica,Arial,Verdana,Tahoma,sans-serif;
     @media only screen and (max-width: 600px) {
-          
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 23px;
     }
     `
 const Columns = styled.div`

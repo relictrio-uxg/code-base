@@ -10,9 +10,9 @@ function Body(props){
            <Benifits />
           {/* <Technologies /> */}
           <WhyUs />
-        {/*  <FurtherDetails />
+          <FurtherDetails />
           <Card />
-          <GetInTouch /> */}
+          {/*   <GetInTouch /> */}
         </div>
     )
 }
