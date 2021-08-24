@@ -8,11 +8,11 @@ function Body(props){
         <div>
           <Main />
            <Benifits />
-          {/* <Technologies /> */}
+          <Technologies /> 
           <WhyUs />
           <FurtherDetails />
           <Card />
-          {/*   <GetInTouch /> */}
+           <GetInTouch /> 
         </div>
     )
 }

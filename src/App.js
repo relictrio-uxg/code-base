@@ -8,6 +8,7 @@ function App() {
       <Router>
         <Switch>
           <Route path="/hire-developers" component={HireDeveloper}/>
+          {/* <Route path="/about" component={} /> */}
         </Switch>
       </Router>
     

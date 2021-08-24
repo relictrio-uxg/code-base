@@ -4,7 +4,15 @@
     min-height: 48px;
     background-color: #3C50E0;
     -webkit-overflow-scrolling: touch;
+
 }
+
+@media only screen and (max-width: 600px) {
+    .MuiTabs-root {
+        display: none;
+    
+    }
+  }
 
 .MuiTab-textColorPrimary.Mui-selected {
     color: #f8f8f8 !important;

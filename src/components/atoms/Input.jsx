@@ -3,6 +3,7 @@ import styled from 'styled-components/macro';
 
 export const InputWrapper = styled.input`
 padding: 15px 20px 15px 0;
+margin:10px;
 background: 0 0;
 mix-blend-mode: normal;
 border: none;

@@ -1,11 +1,11 @@
 import React from 'react';
-import {FooterList} from '../molecules';
+import {Header} from '../molecules';
 
 
 function Footer(){
     return(
         <div>
-              <FooterList />  
+              <Header /> 
         </div>
     )
 }

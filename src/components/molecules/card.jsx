@@ -11,12 +11,12 @@ class Card extends Component{
  render(){
     const Body = styled.h1`
     width:80%;
-    height:600px;
+    height:700px;
     margin-left:100px;
     @media only screen and (max-width: 600px) {
       margin:0px;
       width:100%;
-      height:800px;
+      height:900px;
     }
   `;
 

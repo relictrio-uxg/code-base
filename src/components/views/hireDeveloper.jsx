@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Body, Footer } from '../organisms';
+import { Body, Footer, Header } from '../organisms';
 
 
 
@@ -9,9 +9,8 @@ function HireDeveloper(props){
     console.log('Hire-Developer')
     return(
        <div>
-            { !props.preview && <> 
+           <Header />
                 <Body/>
-            </>}
           
            <Footer />
        </div>

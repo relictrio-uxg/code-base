@@ -8,9 +8,7 @@ const Container = styled.footer`
     float: left;
     width: 100%;
     padding: 110px 0 80px;
-    @media only screen and (max-width: 600px) {
-       
-      }
+    margin-top:-25px;
 `;
 
 const InnerContainer = styled.div`
@@ -19,9 +17,10 @@ const InnerContainer = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    @media only screen and (max-width: 600px) {
-       display:block;
-    }
+    @media (max-width: 768px) {
+    flex-direction: column;
+    width: calc(100% - 75px);
+  }
 `;
 
 const Block = styled.div`
@@ -29,9 +28,9 @@ const Block = styled.div`
     padding: 0;
     border: 0;
     font: inherit;
-    @media only screen and (max-width: 600px) {
-        display:block;
-    }
+    @media (max-width: 768px) {
+        margin-top: 40px;
+  }
 `;
 
 const Block_address = styled.p`
@@ -44,9 +43,6 @@ const Block_address = styled.p`
     float: left;
     width: 200px;
     margin: 0;
-    @media only screen and (max-width: 600px) {
-        display:block;
-    }
 `;
 
 const Block_subHeading = styled.h6`
@@ -55,9 +51,6 @@ const Block_subHeading = styled.h6`
     line-height: 27px;
     color: #04080F;
     margin: 0;
-    @media only screen and (max-width: 600px) {
-        display:block;
-    }
 `;
 
 const UL = styled.ul`
@@ -65,16 +58,11 @@ const UL = styled.ul`
     float: left;
     list-style: none;
     padding: 0;
-    @media only screen and (max-width: 600px) {
-        display:block;
-    }
 `;
 
 const LI = styled.li`
     margin-top: 25px;
-    @media only screen and (max-width: 600px) {
-        display:block;
-    }
+    margin-left:25px;
 `;
 
 const Link = styled.p`
@@ -84,9 +72,6 @@ const Link = styled.p`
     color: #536083;
     text-decoration: none;
     margin: 0;
-    @media only screen and (max-width: 600px) {
-       
-    }
 `;
 
 const UL_doubleSide = styled.ul`
@@ -97,17 +82,17 @@ const UL_doubleSide = styled.ul`
     margin-right: 40px;
     list-style: none;
     padding: 0;
-    @media only screen and (max-width: 600px) {
-       
-    }
+    @media (max-width: 768px) {
+        width:200px;
+       }
 `;
 
 const LI_doubleSide = styled.li`
     width: 135px;
     margin-top: 25px;
-    @media only screen and (max-width: 600px) {
-       
-    }
+    @media (max-width: 768px) {
+       margin-left:25px;
+      }
 `;
 
 const InnerContainer_bottom = styled.div`
@@ -118,9 +103,10 @@ const InnerContainer_bottom = styled.div`
     display: flex;
     align-items: flex-start;
     background: #F0F5FC;
-    @media only screen and (max-width: 600px) {
-        display:block;
-    }
+    @media (max-width: 768px) {
+    flex-direction: column;
+    width: calc(100% - 75px);
+  }
 `;
 
 const Link__bottom = styled.p`
@@ -132,15 +118,14 @@ const Link__bottom = styled.p`
     margin-right: 55px;
     font-family: "Inter-Regular",Helvetica,Arial,sans-serif;
     opacity: 0.8;
-    @media only screen and (max-width: 600px) {
-       
+    @media (max-width: 768px) {
+        margin-left: 0px !important;
     }
 `;
-
 const FooterList = () => {
     return (
         <>
-            <Container>
+             <Container>
                 <InnerContainer>
                     {Data.footerBlock.map(data => {
                         return (
@@ -212,7 +197,6 @@ const FooterList = () => {
                 })}
             </InnerContainer_bottom>
             </Container>
-            
         </>
     );
 };
