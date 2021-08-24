@@ -5,11 +5,34 @@
             "heading" : "How we make sure timely deliveries & successful project delivery?"
         }
     ],
-    "hoverBlock" : [
+    "hoverBlock1" : [
         {
-            "cardNumber" : "01",
-            "imgURL" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/approach__1.png?time=1622425898"
-            
+            "blockInfo" : "Project Inception"
+        }
+    ],
+    "hoverBlock2" : [
+        {
+            "blockInfo" : "Planning the execution"
+        }
+    ],
+    "hoverBlock3" : [
+        {
+            "blockInfo" : "Hiring Offshore Developers"
+        }
+    ],
+    "hoverBlock4" : [
+        {
+            "blockInfo" : "Setting Developers"
+        }
+    ]
+    ,"hoverBlock5" : [
+        {
+            "blockInfo" : "Team Management"
+        }
+    ],
+    "hoverBlock6" : [
+        {
+            "blockInfo" : "Project Delivery"
         }
     ]
 }

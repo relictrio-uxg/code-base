@@ -14,11 +14,17 @@ const Uxgbanner__left = styled.div`
 width: 50%;
 float: left;
 margin-bottom: 110px;
+@media (max-width: 768px) {
+    width: 100%;
+    }
 `;
 
 const Uxgbanner__right = styled.div`
 width: 50%;
 float: right;
+@media (max-width: 768px) {
+    width: 100%;
+    }
 `;
 
 const Uxgbanner__MainHeading = styled.h1`

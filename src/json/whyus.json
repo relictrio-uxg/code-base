@@ -1,0 +1,35 @@
+{
+    "whyUsBlock" : [
+        {
+            "subHeading" : "WHY US?",
+            "heading" : "What makes us different?"
+        }
+    ],
+    "carouselBlock" : [
+        {
+            "imgURL" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/expertise__icon.png?time=1622425898",
+            "blockTxt" : "Unparallaled Expertise",
+            "blockPara" : "Our team is well-versed in the latest technologies in use. They stay competitive."
+        },
+        {
+            "imgURL" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/excellency__icon.png?time=1622425898",
+            "blockTxt" : "Excellency",
+            "blockPara" : "We professionals adhere to the quality standards in the development process and deliver the quality services."
+        },
+        {
+            "imgURL" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/relieable__icon.png?time=1622425898",
+            "blockTxt" : "Reliable",
+            "blockPara" : "We understand your specific requirements and with our experience and skilled workforce, we craft ingenious solutions that meet your every expectation."
+        },
+        {
+            "imgURL" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2021/01/productivity__icon.png?time=1622425898",
+            "blockTxt" : "Productivity",
+            "blockPara" : "We will help you accelerate your delivery speed, all the while maintaining the quality you’re aiming for. "
+        },
+        {
+            "imgURL" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/expertise__icon.png?time=1622425898",
+            "blockTxt" : "Flexibility",
+            "blockPara" : "We can quickly scale a development team up or down for you to match the changing needs of your business."
+        }
+    ] 
+}

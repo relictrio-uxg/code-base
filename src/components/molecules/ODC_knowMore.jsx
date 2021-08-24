@@ -40,6 +40,8 @@ margin: 0 auto 36px auto;
 const Container = styled.div`
 background-color: #E5E5E5;
 width: 100%;
+padding: 120px 0;
+float: left;
 `;
 
 const InnerContainer = styled.div`
@@ -49,7 +51,6 @@ border-radius: 100px 100px 0px 100px;
 width: 80%;
 height: 392px;
 margin: 0 auto;
-margin-bottom: 50px;
 `;
 
 

@@ -37,11 +37,11 @@ const SubPara = styled.p`
     width: 252px;
 `;
 
-const LeftCol = styled.p`
+const LeftCol = styled.div`
     width: 35%;
 `;
 
-const RightCol = styled.p`
+const RightCol = styled.div`
     width: 55%;
 `;
 

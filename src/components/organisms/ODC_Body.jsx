@@ -15,7 +15,9 @@ import {
     ODC_card,
     ODC_getInTouch,
     ODC_header,
-    ODC_footer
+    ODC_footer,
+    ODC_ourApproach,
+    ODC_whyUs
 } from '../molecules';
 
 const Container = styled.div`
@@ -53,6 +55,8 @@ const ODC_Body = () => {
 
             <ODC_services_blue />
             <ODC_services_pink />
+            <ODC_whyUs/>
+            <ODC_ourApproach/>
             <ODC_knowMore/>
             <ODC_card/>
             <ODC_getInTouch/>

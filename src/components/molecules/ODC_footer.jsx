@@ -15,6 +15,10 @@ const InnerContainer = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    @media (max-width: 768px) {
+    flex-direction: column;
+    width: calc(100% - 75px);
+  }
 `;
 
 const Block = styled.div`
@@ -22,6 +26,9 @@ const Block = styled.div`
     padding: 0;
     border: 0;
     font: inherit;
+    @media (max-width: 768px) {
+        margin-top: 40px;
+  }
 `;
 
 const Block_address = styled.p`
@@ -87,6 +94,10 @@ const InnerContainer_bottom = styled.div`
     display: flex;
     align-items: flex-start;
     background: #F0F5FC;
+    @media (max-width: 768px) {
+    flex-direction: column;
+    width: calc(100% - 75px);
+  }
 `;
 
 const Link__bottom = styled.p`
@@ -98,6 +109,9 @@ const Link__bottom = styled.p`
     margin-right: 55px;
     font-family: "Inter-Regular",Helvetica,Arial,sans-serif;
     opacity: 0.8;
+    @media (max-width: 768px) {
+        margin-left: 0px !important;
+    }
 `;
 
 const ODC_footer = () => {
