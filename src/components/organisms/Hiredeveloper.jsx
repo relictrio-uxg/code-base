@@ -1,18 +1,20 @@
 import React from 'react';
-import { Benifits, Card, FurtherDetails, GetInTouch, Main, Technologies, WhyUs} from '../molecules';
+import { Benifits, BannerBlock, Card, FurtherDetails, GetInTouch, Main, Technologies, WhyUs, Blog} from '../molecules';
 
 
 
 function Body(props){
     return(
         <div>
-          <Main />
-           <Benifits />
+          <Main /> 
+         {/* <BannerBlock /> */}
+          <Benifits />
           <Technologies /> 
           <WhyUs />
           <FurtherDetails />
           <Card />
            <GetInTouch /> 
+           
         </div>
     )
 }

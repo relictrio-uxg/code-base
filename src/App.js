@@ -1,17 +1,21 @@
-import HireDeveloper from './components/views/hireDeveloper';
+import React from 'react';
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import { HireDeveloper } from './components';
+import { AboutUs, Footer, Header } from './components/organisms';
+
 
 
 function App() {
   return (
     <div className="App">
+      <Header />
       <Router>
         <Switch>
-          <Route path="/hire-developers" component={HireDeveloper}/>
-          {/* <Route path="/about" component={} /> */}
+          <Route path="/hire-developers" exact component={HireDeveloper}/>
+           <Route path="/aboutus" component={AboutUs} /> 
         </Switch>
       </Router>
-    
+    <Footer />
     </div>
   );
 }

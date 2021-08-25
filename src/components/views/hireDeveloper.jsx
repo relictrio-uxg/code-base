@@ -9,10 +9,7 @@ function HireDeveloper(props){
     console.log('Hire-Developer')
     return(
        <div>
-           <Header />
-                <Body/>
-          
-           <Footer />
+            <Body/>
        </div>
        
     )
