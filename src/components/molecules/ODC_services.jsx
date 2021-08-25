@@ -26,7 +26,7 @@ const Heading = styled.h2`
         font-size: 44px;
         line-height: 60px;
         color: #00005C;
-        width: 640px;
+        max-width: 640px;
 `;
 
 const SubPara = styled.p`
@@ -37,7 +37,7 @@ const SubPara = styled.p`
         line-height: 28px;
         letter-spacing: 0.142857px;
         color: #536083;
-        width: 640px;
+        max-width: 640px;
         margin-bottom: 75px;
 `;
 

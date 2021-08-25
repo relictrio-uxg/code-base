@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Button } from '../atoms/Button';
-import BannerData from '../../json/banner.json';
+import RecruitmentPageData from '../../json/recruitmentPage.json';
 
 const ContainerInner = styled.div`
 width: 80%;
@@ -13,7 +13,7 @@ padding-top: 150px;
     }
 `;
 
-const Uxgbanner__left = styled.div`
+const R_banner__left = styled.div`
 width: 50%;
 float: left;
 margin-bottom: 110px;
@@ -22,7 +22,7 @@ margin-bottom: 110px;
     }
 `;
 
-const Uxgbanner__right = styled.div`
+const R_banner__right = styled.div`
 width: 50%;
 float: right;
 @media (max-width: 768px) {
@@ -30,14 +30,14 @@ float: right;
     }
 `;
 
-const Uxgbanner__MainHeading = styled.h1`
+const R_banner__MainHeading = styled.h1`
 font-family: "Gilroy-SemiBold",Helvetica,Arial,sans-serif;
 font-size: 52px;
 line-height: 72px;
 color: #00005C;
 `;
 
-const Uxgbanner__SubHeading = styled.p`
+const R_banner__SubHeading = styled.p`
 font-family: "Inter-Regular",Helvetica,Arial,sans-serif;
 font-style: normal;
 font-weight: normal;
@@ -48,25 +48,25 @@ color: #536083;
 max-width: 540px;
 `;
 
-const ODC_banner = () => {
+const R_banner = () => {
     return (
         <>
-            {BannerData.bannerPage.map(banner => {
+            {RecruitmentPageData.recruitmentPage.map(banner => {
                 return (
                     <>
                         <ContainerInner>
-                            <Uxgbanner__left>
-                                <Uxgbanner__MainHeading>
+                            <R_banner__left>
+                                <R_banner__MainHeading>
                                     {banner.bannerHeading}
-                                </Uxgbanner__MainHeading>
-                                <Uxgbanner__SubHeading>
+                                </R_banner__MainHeading>
+                                <R_banner__SubHeading>
                                     {banner.bannerContent}
-                                </Uxgbanner__SubHeading>
-                                <Button block="inline-block" bg="#3C50E0" color="#ffffff">Get in Touch</Button>
-                            </Uxgbanner__left>
-                            <Uxgbanner__right>
-                               <img  src= {banner.bannerImageURL}/>
-                            </Uxgbanner__right>
+                                </R_banner__SubHeading>
+                                <Button block="inline-block" bg="#3C50E0" color="#ffffff">{banner.bannerBtnTxt}</Button>
+                            </R_banner__left>
+                            <R_banner__right>
+                               <img src= {banner.bannerImageURL}/>
+                            </R_banner__right>
                         </ContainerInner>
                     </>
                 )
@@ -76,4 +76,4 @@ const ODC_banner = () => {
 };
 
 
-export default ODC_banner;
+export default R_banner;

@@ -1,0 +1,46 @@
+{
+    "BlogSection" : [
+        {
+            "subHeading" : "LATEST BLOGS",
+            "heading" : "Relevant Articles",
+            "btnTxt" : "View More"
+        }
+    ],
+    "BlogBlock" : [
+        {
+            "imgURL" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2021/04/food.jpeg?time=1622425898",
+            "subHeading" : "Mobile Application",
+            "heading" : "Why Should You Invest in Restaurant App Development?",
+            "authorBy" : "Written By",
+            "authorName": "Sans"
+        },
+        {
+            "imgURL" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2021/04/opt.jpeg?time=1622425898",
+            "subHeading" : "ODC",
+            "heading" : "Why Should One opt for the ODC Model? ",
+            "authorBy" : "Written By",
+            "authorName": "Sans"
+        },
+        {
+            "imgURL" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2021/04/skills.jpeg?time=1622425898",
+            "subHeading" : "Hire Developer",
+            "heading" : "Essential Skills Needed to be A Good Front End Developer",
+            "authorBy" : "Written By",
+            "authorName": "Sans"
+        },
+        {
+            "imgURL" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2021/04/opt.jpeg?time=1622425898",
+            "subHeading" : "ODC",
+            "heading" : "Why Should One opt for the ODC Model? ",
+            "authorBy" : "Written By",
+            "authorName": "Sans"
+        },
+        {
+            "imgURL" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2021/04/skills.jpeg?time=1622425898",
+            "subHeading" : "Hire Developer",
+            "heading" : "Essential Skills Needed to be A Good Front End Developer",
+            "authorBy" : "Written By",
+            "authorName": "Sans"
+        }
+    ]
+}

@@ -33,7 +33,7 @@ line-height: 24px;
 text-align: center;
 letter-spacing: 0.214286px;
 color: #F5F6F9;
-width: 552px;
+max-width: 552px;
 margin: 0 auto 36px auto;
 `;
 

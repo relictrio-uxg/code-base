@@ -17,7 +17,8 @@ import {
     ODC_header,
     ODC_footer,
     ODC_ourApproach,
-    ODC_whyUs
+    ODC_whyUs,
+    ODC_latestBlogs
 } from '../molecules';
 
 const Container = styled.div`
@@ -28,7 +29,7 @@ width: 100%;
 const ODC_Body = () => {
     return (
         <>
-            <ODC_header/>
+            {/*<ODC_header/>*/}
             <Container>
                 <ODC_banner />
                 {BannerData.subRow.map((banner) => (
@@ -58,6 +59,7 @@ const ODC_Body = () => {
             <ODC_whyUs/>
             <ODC_ourApproach/>
             <ODC_knowMore/>
+            <ODC_latestBlogs/>
             <ODC_card/>
             <ODC_getInTouch/>
             <ODC_footer/>

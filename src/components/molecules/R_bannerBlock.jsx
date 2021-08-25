@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Image } from "../atoms/Image";
+import RecruitmentPageData from "../../json/recruitmentPage.json";
 
 const Row = styled.div`
         width: 100%;
@@ -48,29 +48,27 @@ const Bannerblock__para = styled.p`
         margin-bottom: 120px;
         `;
 
-const BannerBlock = ({
-    desktopsrcfile,
-    heading,
-    subHeading,
-    width,
-    height
-}) => {
+const R_BannerBlock = () => {
 
     return (
         <ContainerInner>
-            <Col4>
-                <Row>
-                    <Col2>
-                        <Image width={width} height={height} desktopsrcfile={desktopsrcfile} />
-                    </Col2>
-                    <Col10>
-                        <Bannerblock__heading>{heading}</Bannerblock__heading>
-                        <Bannerblock__para>{subHeading}</Bannerblock__para>
-                    </Col10>
-                </Row>
-            </Col4>
+            {RecruitmentPageData.recruitmentBannerBlock.map(data => {
+                return (
+                    <Col4>
+                        <Row>
+                            <Col2>
+                                <img src={data.imgURL} />
+                            </Col2>
+                            <Col10>
+                                <Bannerblock__heading>{data.heading}</Bannerblock__heading>
+                                <Bannerblock__para>{data.subHeading}</Bannerblock__para>
+                            </Col10>
+                        </Row>
+                    </Col4>
+                )
+            })}
         </ContainerInner>
     );
 };
 
-export default BannerBlock;
+export default R_BannerBlock;

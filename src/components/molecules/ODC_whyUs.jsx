@@ -7,6 +7,26 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 import whyUsData from '../../json/whyus.json';
 
+const options = {
+    responsive: {
+        0: {
+            items: 1,
+        },
+        400: {
+            items: 2,
+        },
+        600: {
+            items: 3,
+        },
+        700: {
+            items: 4,
+        },
+        1000: {
+            items: 4,
+        }
+    },
+  };
+
 const Container = styled.div`
     background: #ffffff;
     float: left;
@@ -91,7 +111,7 @@ const ODC_whyUs = () => {
                 })}
                 <CarouselContainer>
                     <InnerCarouselContainer>
-                        <OwlCarousel className="owl-theme" items={4} margin={20} dots={false}>
+                        <OwlCarousel className="owl-theme" {...options} items={4} margin={20} dots={false}>
                             {whyUsData.carouselBlock.map(data => {
                                 return (
                                     <Block>

@@ -47,7 +47,7 @@ const ListBlock_info = styled.div`
     background: url('https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/themes/UXGURUS/images/approach__divider.svg') right center no-repeat transparent;
     position: relative;
     padding: 170px 25px 40px;
-    color: var(--uxg-black);
+    color: #00005c;
     counter-increment: approach;
     &::before{
         content: counters(approach, ".", decimal-leading-zero);

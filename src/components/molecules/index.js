@@ -11,3 +11,7 @@ export { default as ODC_header } from './ODC_header';
 export { default as ODC_footer } from './ODC_footer';
 export { default as ODC_ourApproach } from './ODC_ourApproach';
 export { default as ODC_whyUs } from './ODC_whyUs';
+export { default as ODC_latestBlogs } from './ODC_latestBlogs';
+
+export { default as R_banner } from './R_banner';
+export { default as R_BannerBlock } from './R_bannerBlock';

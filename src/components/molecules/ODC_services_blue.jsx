@@ -5,7 +5,8 @@ import ServicesData from '../../json/services.json';
 const Container = styled.div`
     background: #EBF3FF;
     width: 100%;
-    height: 768px;
+    height: 100%;
+    display: flex;
 `;
 
 const InnerContainer = styled.div`
@@ -22,6 +23,9 @@ const Col6 = styled.div`
     width: 50%;
     float: left;
     margin: 0 auto;
+    @media (max-width: 768px) {
+    width: 100%;
+    }
 `;
 
 const SubPara = styled.p`

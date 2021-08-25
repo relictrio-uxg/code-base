@@ -16,6 +16,10 @@ const InnerContainer = styled.div`
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    @media (max-width: 768px) {
+        flex-direction: column;
+        margin-top: 50px;
+        }
 `;
 
 const BlockContainer = styled.div`
@@ -24,6 +28,9 @@ const BlockContainer = styled.div`
     border-radius: 12px;
     padding: 60px 40px;
     max-width: 390px;
+    @media (max-width: 768px) {
+        margin: 50px 0;
+        }
 `;
 
 const SubHeading = styled.h4`

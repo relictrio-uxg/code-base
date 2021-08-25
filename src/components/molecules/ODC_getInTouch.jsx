@@ -16,6 +16,9 @@ const InnerContainer = styled.div`
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    @media (max-width: 768px) {
+    flex-direction: column;
+    }
 `;
 
 const Heading = styled.h2`
@@ -34,15 +37,21 @@ const SubPara = styled.p`
     color: #FFFFFF;
     mix-blend-mode: normal;
     opacity: 0.8;
-    width: 252px;
+    max-width: 252px;
 `;
 
 const LeftCol = styled.div`
     width: 35%;
+    @media (max-width: 768px) {
+    width: 100%;
+    }
 `;
 
 const RightCol = styled.div`
     width: 55%;
+    @media (max-width: 768px) {
+    width: 100%;
+    }
 `;
 
 const Form = styled.div`
@@ -50,6 +59,9 @@ display: grid;
 grid-template-columns: repeat(2, 1fr);
 grid-gap: 100;
 padding:0px 0px 0px 0px;
+@media (max-width: 768px) {
+    display: block;
+    }
 `;
 
 

@@ -73,6 +73,10 @@ const Row = styled.div`
 const Col4 = styled.div`
         width: 33.333%;
         float: right;
+        @media (max-width: 768px) {
+        width: 100%;
+        margin-top: 50px;
+        }
 `;
 
 const Col12 = styled.div`
@@ -84,31 +88,31 @@ const Col12 = styled.div`
 const ODC_redefining = () => {
         return (
                 <>
-                <Container>
-                        <InnerContainer>
-                                {RedefiningData.redefiningBlock.map(data => {
-                                        return (
-                                                <>
-                                                        <SmallHeading>{data.subHeading}</SmallHeading>
-                                                        <Redefining_heading>{data.heading}</Redefining_heading>
-                                                </>
-                                        )
-                                })}
-                                {RedefiningData.block.map(blockData => {
-                                        return (
-                                                <Col4>
-                                                        <Row>
-                                                                <Col12>
-                                                                        <img style={{margin: "0 auto",display: "block" }} src={blockData.desktopsrcfile} />
-                                                                        <BlockHeading>{blockData.heading}</BlockHeading>
-                                                                        <BlockPara>{blockData.subHeading}</BlockPara>
-                                                                </Col12>
-                                                        </Row>
-                                                </Col4>
-                                        )
-                                })}
-                        </InnerContainer>
-                </Container>
+                        <Container>
+                                <InnerContainer>
+                                        {RedefiningData.redefiningBlock.map(data => {
+                                                return (
+                                                        <>
+                                                                <SmallHeading>{data.subHeading}</SmallHeading>
+                                                                <Redefining_heading>{data.heading}</Redefining_heading>
+                                                        </>
+                                                )
+                                        })}
+                                        {RedefiningData.block.map(blockData => {
+                                                return (
+                                                        <Col4>
+                                                                <Row>
+                                                                        <Col12>
+                                                                                <img style={{ margin: "0 auto", display: "block" }} src={blockData.desktopsrcfile} />
+                                                                                <BlockHeading>{blockData.heading}</BlockHeading>
+                                                                                <BlockPara>{blockData.subHeading}</BlockPara>
+                                                                        </Col12>
+                                                                </Row>
+                                                        </Col4>
+                                                )
+                                        })}
+                                </InnerContainer>
+                        </Container>
                 </>
         );
 };

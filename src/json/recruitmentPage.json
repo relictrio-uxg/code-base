@@ -1,0 +1,27 @@
+{
+    "recruitmentPage": [ {
+        "bannerHeading" : "Recruitment India & Abroad",
+        "bannerContent" : "Whether its full-time recruitments, partnership or ongoing management support, we cater to all your needs. Truthfulness, transparency and collaborative approach is a start!",
+        "bannerBtnTxt" : "Get in Touch",
+        "bannerImageURL" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/recruit__bannerimg-1.png?time=1622425898"
+
+    } ],
+    "recruitmentBannerBlock" : [
+        {
+            "imgURL": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/recruitTeam__icon-1.png?time=1622425898",
+            "heading": "Recruit Team",
+            "subHeading": "A fast paced setup to quickly onboard talent with wide pool of expertise"
+        },
+        {
+            "imgURL": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/remoteAssistance__icon-1.png?time=1622425898",
+            "heading": "Remote Assistance",
+            "subHeading": "All our employees could work in remote environment seamlessly"
+        },
+        {
+            "imgURL": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/timebased__icon-1.png?time=1622425898",
+            "heading": "Full time or Hour based",
+            "subHeading": "Based on business needs, we provide full time or hourly based recruitment services."
+        }
+    ]
+
+}
