@@ -10,13 +10,13 @@ export const AboutUs = () => {
              <IntroSection />
              <JournySection />
              <WhoWeAre />
-             <Mission />
+              <Mission />
              <Strength />
-             <Vision />
-             <CoreValues />
+               <Vision />
+              <CoreValues />
              <FurtherDetails />
              <Contact />
-             <GetInTouch />
+             <GetInTouch />  
         </div>
     )
 }

@@ -10,11 +10,11 @@ export class Mission extends Component{
     render(){
         const Body = styled.h1`
         width:100%;
-        height:700px;
+        height:300px;
         margin-top:-25px;
         @media only screen and (max-width: 600px) {
           padding:0px;
-  margin-top:100px;
+  margin-top:0px;
   display:block;
   height:900px;
         }
@@ -31,7 +31,7 @@ export class Mission extends Component{
           margin-left:0px;
           flex-direction:column;
           display:block;
-          
+          padding:0px;
     }
     `
 

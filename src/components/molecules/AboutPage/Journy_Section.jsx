@@ -14,6 +14,9 @@ const Container = styled.div`
     float: left;
     width: 100%;
     padding: 100px 0 100px;
+    @media only screen and (max-width: 768px) {
+        padding: 0px 0px 0px;
+    }
 `;
 
 const InnerContainer = styled.div`
@@ -53,11 +56,17 @@ const LeftBlock_Heading = styled.h2`
     line-height: 28px;
     letter-spacing: .142857px;
     color: #536083;
+    @media only screen and (max-width: 768px) {
+    
+    }
 `;
 
 const RightBlock = styled.div`
     width: 70%;
     overflow: hidden;
+    @media only screen and (max-width: 768px) {
+    
+    }
 `;
 
 const BlogBlock = styled.div`

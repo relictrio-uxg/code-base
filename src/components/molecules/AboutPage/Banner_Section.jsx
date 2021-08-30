@@ -12,10 +12,18 @@ const Wrapper = styled.div`
   display:flex;
   justify-content:center;
   display:inline-block;
+  @media only screen and (max-width: 768px) {
+    width:100%;
+  height:350px;
+  margin:0px;
+  }
 `;
 
 export const Text = styled.div`
   margin:200px;
+  @media only screen and (max-width: 768px) {
+    margin:20px;
+}
 `
 
 const Title = styled.h1`
@@ -25,6 +33,12 @@ const Title = styled.h1`
   color: ${colors.textClr1};
   font-family:${fontFamily.SemiboldFont};
   flex-direction:column;
+  @media only screen and (max-width: 768px) {
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+}
 `
 
 export const SubTitle = styled.h2`
@@ -35,6 +49,13 @@ export const SubTitle = styled.h2`
     line-height: 60px;
     font-family:${fontFamily.SemiboldFont};
     font-weight:${fontWeight.fontWeight5};
+    @media only screen and (max-width: 768px) {
+        font-size: 36px;
+        line-height: 52px;
+        text-align: center;
+        letter-spacing: .01em;
+        font-weight:700;    
+    }
 `
 
 

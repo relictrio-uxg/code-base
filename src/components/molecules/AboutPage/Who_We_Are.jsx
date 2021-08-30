@@ -8,7 +8,7 @@ class WhoWeAre extends Component{
     const Body = styled.h1`
     width:100%;
     height:400px;
-    padding:100px 0px;
+    padding:100px 0px 0px 0px;
     margin-top:750px;
     @media only screen and (max-width: 600px) {
       

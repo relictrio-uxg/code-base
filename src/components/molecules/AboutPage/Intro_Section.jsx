@@ -13,10 +13,16 @@ const Wrapper = styled(Div)`
   display:flex;
   justify-content:center;
   display:inline-block;
+  @media only screen and (max-width: 768px) {
+    height:200px;
+}
 `;
 
 export const Text = styled.div`
   margin:200px;
+  @media only screen and (max-width: 768px) {
+    margin:31px;
+}
 `
 
 export const Title = styled.h2`
@@ -29,6 +35,14 @@ letter-spacing: .214286px;
 color: #536083;
 max-width: 740px;
 margin: 0 auto;
+@media only screen and (max-width: 768px) {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: .142857px;
+}
 `
 
 export const IntroSection = ({ text }) => {

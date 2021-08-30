@@ -8,10 +8,11 @@ export class CoreValues extends Component{
     const Body = styled.h1`
     width:100%;
     height:400px;
+    background:#F5F8FD;
     padding:0px 0px;
-    margin:250px 0px 0px 0px;
+    margin:150px 0px 0px 0px;
     @media only screen and (max-width: 600px) {
-      
+      height:700px;
     }
   `;
 
@@ -31,7 +32,7 @@ export class CoreValues extends Component{
       margin:0px;
       width:100%;
       border-radius: 42px 42px 0 42px;
-      padding:80px 0px;
+      padding:0px 0px;
     }
   `
 
@@ -74,11 +75,15 @@ display: grid;
 padding:25px 0px 0px 0px; 
 display: flex; 
 justify-content: space-around; 
+@media only screen and (max-width: 600px) {
+ 
+}
+
 `
 const LeftCol = styled.div`
        width:500px;
        @media only screen and (max-width: 600px) {
-          width:100%;
+          width:auto;
           display:flex;
           justify-content:center;
           display:block;
@@ -94,8 +99,10 @@ const LeftCol = styled.div`
       grid-template-columns: repeat(3, 1fr); 
       gridGap: 100; 
       @media only screen and (max-width: 600px) {
-          flex-direction:column;
-          margin: 20px 0;
+        display: grid; 
+        width:auto;
+        grid-template-columns: repeat(2, 1fr); 
+        gridGap: 20; 
       }
       `
       const IconText = styled.h4`
@@ -125,7 +132,7 @@ const LeftCol = styled.div`
       justifyContent: space-around;
       @media only screen and (max-width: 600px) {
         display: block; 
-        padding:0px 25px 0px 25px;
+        padding:0px 0px 0px 0px;
         
       }
       `
@@ -142,13 +149,10 @@ justify-content: center;
 font-family:"Gilroy-SemiBold",Helvetica,Arial,Verdana,Tahoma,sans-serif;
 @media only screen and (max-width: 600px) {
   font-size: 18px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
+    line-height: 26px;
     text-align: center;
     letter-spacing: .025em;
-    color: var(--uxg-black);
-    margin: 20px 0 10px;
+    margin: 15px 0;
 }
 `
 const Img = styled.img`
@@ -167,7 +171,7 @@ margin: 0px 0px 50px;
 text-align: center;
 position: relative;
 @media only screen and (max-width: 600px) {
-  margin: 0px 10px 0px 10px;
+  margin: 50px 10px 30px 10px;
 }
 `
     

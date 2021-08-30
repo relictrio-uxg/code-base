@@ -10,16 +10,15 @@ export class Contact extends Component{
     width:100%;
     height:400px;
     padding:0px 0px;
-    margin-left:50px;
+    margin-left:0px;
     @media only screen and (max-width: 600px) {
-      
+      display:none;
     }
   `;
 
   const BenigitBody = styled.div`
     width:80%;
     margin-left:150px;
-    width: 1145px;
     padding: 10px 95px;
     display: flex;
     margin: 0 auto;
@@ -79,13 +78,13 @@ display: flex;
 justify-content: space-around; 
 `
 const LeftCol = styled.div`
-       width:500px;
+       
        @media only screen and (max-width: 600px) {
           width:100%;
           display:flex;
           justify-content:center;
           display:block;
-         width:100%;
+         width:auto;
          display:grid;
          display:none;
       }

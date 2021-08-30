@@ -11,7 +11,7 @@ export class Vision extends Component{
     padding:0px 0px;
     margin:250px 0px 150px 0px;
     @media only screen and (max-width: 600px) {
-      
+      margin:150px 0px 0px 0px;
     }
   `;
 
@@ -31,7 +31,7 @@ export class Vision extends Component{
       margin:0px;
       width:100%;
       border-radius: 42px 42px 0 42px;
-      padding:80px 0px;
+      padding:0px 0px;
     }
   `
 
@@ -74,6 +74,9 @@ display: grid;
 padding:25px 0px 0px 0px; 
 display: flex; 
 justify-content: space-around; 
+@media only screen and (max-width: 600px) {
+ margin:0px 20px;
+}
 `
 const LeftCol = styled.div`
        width:500px;
@@ -94,14 +97,19 @@ const LeftCol = styled.div`
       grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
       margin: 20px 0;
       @media only screen and (max-width: 600px) {
+        width:auto;
           flex-direction:column;
-          margin: 20px 0;
+          margin: 20px 20;
+
       }
       `
       const IconText = styled.h4`
       color:#00005C;
       font-weight:bold;
       font-size:18px;
+      @media only screen and (max-width: 600px) {
+        font-size:15px
+      }
       `
       
       const Para = styled.p`
@@ -125,6 +133,13 @@ const LeftCol = styled.div`
       color: #536083;
       padding-right:250px;
       margin-top:-20px;
+      @media only screen and (max-width: 600px) {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 23px;
+        letter-spacing: .015em;
+    }
       `
     
 

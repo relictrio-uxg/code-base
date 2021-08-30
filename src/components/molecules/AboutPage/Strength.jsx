@@ -9,9 +9,10 @@ export class Strength extends Component{
     width:100%;
     height:400px;
     padding:0px 0px;
-    margin:250px 0px 150px 0px;
+    margin:600px 0px 150px 0px;
     @media only screen and (max-width: 600px) {
-      
+      display:block;
+      display:none;
     }
   `;
 
@@ -25,7 +26,6 @@ export class Strength extends Component{
     border-radius: 80px 80px 0 80px;
     width: 1145px;
     padding: 130px 95px;
-    display: flex;
     margin: 0 auto;
     justify-content: space-between;
     @media only screen and (max-width: 600px) {
@@ -89,6 +89,10 @@ display: grid;
 padding:25px 0px 0px 0px; 
 display: flex; 
 justify-content: space-around; 
+@media only screen and (max-width: 600px) {
+ display:block;
+ 
+}
 `
 const LeftCol = styled.div`
        width:500px;
