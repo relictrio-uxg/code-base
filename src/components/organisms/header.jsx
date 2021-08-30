@@ -7,6 +7,7 @@ import {Button, Nav_Button} from '../atoms/Button'
 const Header_ = styled.header`
     width: 100%;
     background-color: #fbfbfb ;
+    background-color: #fbfbfb;
     position: fixed;
     top:0;
     z-index:999;

@@ -6,6 +6,7 @@ function Footer(){
     return(
         <div>
                {/* <FooterList />    */}
+               <FooterList />   
         </div>
     )
 }

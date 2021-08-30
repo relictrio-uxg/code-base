@@ -1,5 +1,5 @@
 
-export { BannerSection } from './Banner_Section';
+export { default as BannerSection } from './Banner_Section';
 export { IntroSection } from './Intro_Section';
 export { JournySection } from './Journy_Section';
 export { default as WhoWeAre } from './Who_We_Are';

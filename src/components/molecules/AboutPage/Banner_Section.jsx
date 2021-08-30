@@ -1,11 +1,10 @@
-import React from 'react';
-import { Div } from '../../atoms';
+import React from 'react'
 import styled from 'styled-components';
 import { backgroundColor, fontSize, lineHeight, colors, fontFamily, fontWeight} from '../../theme';
 import propTypes from 'prop-types'
 import About from '../../../json/aboutus.json';
 
-const Wrapper = styled(Div)`
+const Wrapper = styled.div`
   width:100%;
   height:450px;
   background:${backgroundColor.defaultColor};
@@ -39,7 +38,7 @@ export const SubTitle = styled.h2`
 `
 
 
-export const BannerSection = ({text, subText }) => {
+const BannerSection = ({text, subText }) => {
     return(
         <Wrapper text={text} subText={subText}>
             {
@@ -64,4 +63,5 @@ BannerSection.propTypes = {
 }
 
 
+export default BannerSection
 

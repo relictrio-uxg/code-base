@@ -12,3 +12,5 @@ export { default as BannerBlock } from './bannerBlock';
 
 
 export * from './AboutPage';
+
+export { default as BannerSection } from './AboutPage/Banner_Section';
