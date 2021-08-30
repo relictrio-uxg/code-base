@@ -14,8 +14,6 @@ import {
     ODC_knowMore,
     ODC_card,
     ODC_getInTouch,
-    ODC_header,
-    ODC_footer,
     ODC_ourApproach,
     ODC_whyUs,
     ODC_latestBlogs
@@ -29,7 +27,6 @@ width: 100%;
 const ODC_Body = () => {
     return (
         <>
-            {/*<ODC_header/>*/}
             <Container>
                 <ODC_banner />
                 {BannerData.subRow.map((banner) => (
@@ -47,7 +44,7 @@ const ODC_Body = () => {
             </Container>
 
             {ServicesData.servicesHeading.map((data) => (
-                <ODC_services
+                <ODC_services bg="#fbfbfb"
                     subHeading={data.subHeading}
                     heading={data.heading}
                     subPara={data.subPara}
@@ -62,8 +59,6 @@ const ODC_Body = () => {
             <ODC_latestBlogs/>
             <ODC_card/>
             <ODC_getInTouch/>
-            <ODC_footer/>
-            
         </>
     );
 };

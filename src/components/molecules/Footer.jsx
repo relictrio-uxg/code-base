@@ -114,7 +114,7 @@ const Link__bottom = styled.p`
     }
 `;
 
-const ODC_footer = () => {
+const Footer = () => {
     return (
         <>
             <Container>
@@ -194,4 +194,4 @@ const ODC_footer = () => {
     );
 };
 
-export default ODC_footer;
+export default Footer;

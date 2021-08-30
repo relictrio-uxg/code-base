@@ -38,7 +38,7 @@ margin: 0 auto 36px auto;
 `;
 
 const Container = styled.div`
-background-color: #E5E5E5;
+background-color: #ffffff;
 width: 100%;
 padding: 120px 0;
 float: left;

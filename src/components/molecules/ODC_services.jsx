@@ -2,7 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Container = styled.div`
-        background-color: #fbfbfb;
+        background: ${(props) => props.bg};
+        background-size: ${(props) => props.bgSize};
         width: 100%;
 `;
 
@@ -44,11 +45,13 @@ const SubPara = styled.p`
 const ODC_services = ({
     subHeading,
     heading,
-    subPara
+    subPara,
+    bg,
+    bgSize
 }) => {
     return (
         <>
-            <Container>
+            <Container bg={bg} bgSize={bgSize}>
                 <InnerContainer>
                     <SubHeading>{subHeading}</SubHeading>
                     <Heading>{heading}</Heading>

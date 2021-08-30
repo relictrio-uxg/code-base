@@ -65,7 +65,7 @@ const ODC_banner = () => {
                                 <Button block="inline-block" bg="#3C50E0" color="#ffffff">Get in Touch</Button>
                             </Uxgbanner__left>
                             <Uxgbanner__right>
-                               <img  src= {banner.bannerImageURL}/>
+                               <img src= {banner.bannerImageURL}/>
                             </Uxgbanner__right>
                         </ContainerInner>
                     </>

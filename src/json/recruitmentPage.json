@@ -1,12 +1,13 @@
 {
-    "recruitmentPage": [ {
-        "bannerHeading" : "Recruitment India & Abroad",
-        "bannerContent" : "Whether its full-time recruitments, partnership or ongoing management support, we cater to all your needs. Truthfulness, transparency and collaborative approach is a start!",
-        "bannerBtnTxt" : "Get in Touch",
-        "bannerImageURL" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/recruit__bannerimg-1.png?time=1622425898"
-
-    } ],
-    "recruitmentBannerBlock" : [
+    "recruitmentPage": [
+        {
+            "bannerHeading": "Recruitment India & Abroad",
+            "bannerContent": "Whether its full-time recruitments, partnership or ongoing management support, we cater to all your needs. Truthfulness, transparency and collaborative approach is a start!",
+            "bannerBtnTxt": "Get in Touch",
+            "bannerImageURL": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/recruit__bannerimg-1.png?time=1622425898"
+        }
+    ],
+    "recruitmentBannerBlock": [
         {
             "imgURL": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/recruitTeam__icon-1.png?time=1622425898",
             "heading": "Recruit Team",
@@ -22,6 +23,166 @@
             "heading": "Full time or Hour based",
             "subHeading": "Based on business needs, we provide full time or hourly based recruitment services."
         }
+    ],
+    "benefitsSection": [
+        {
+            "subHeading": "RECRUITMENT BENEFITS",
+            "heading": "What you will get?"
+        }
+    ],
+    "benefitsBlock": [
+        {
+            "iconURL": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/expStaff__icon.png?time=1622425898",
+            "heading": "Experienced staff",
+            "para": "Most of the resources at UXGURUS have a minimum 3+ years of relevant working experience."
+        },
+        {
+            "iconURL": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/directAccess__icon.png?time=1622425898",
+            "heading": "Direct access to resources",
+            "para": "You are in direct contact with your resources and have full flexibility and control over them."
+        },
+        {
+            "iconURL": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/intelCopy__icon.png?time=1622425898",
+            "heading": "Intellectual copyrights",
+            "para": "All the codes and work done by resources assigned to a particular client will be reserved by the client."
+        }
+    ],
+    "cardInfo_2": [
+        {
+            "subHeading": "BUILD YOUR SMALL TEAM?",
+            "heading": "Hire developers!",
+            "btnText_1": "Hire Now",
+            "btnText_2": "Know More"
+        }
+    ],
+    "cardInfo_2__data": [
+        {
+            "info": "Get experienced Developers"
+        },
+        {
+            "info": "Zero Recruitment Fee"
+        },
+        {
+            "info": "Flexible hiring options"
+        },
+        {
+            "info": "Collaborative approach"
+        },
+        {
+            "info": "Direct access to resources"
+        },
+        {
+            "info": "Scalable Team size"
+        }
+    ],
+    "cardInfo_1": [
+        {
+            "subHeading": "long term engagement?",
+            "heading": "Offshore Center!",
+            "btnText_1": "Raise Request",
+            "btnText_2": "Know More"
+        }
+    ],
+    "cardInfo_1__data": [
+        {
+            "info": "Unmatched expertise"
+        },
+        {
+            "info": "Complete Transparency and control"
+        },
+        {
+            "info": "Ready to use infrastructure"
+        },
+        {
+            "info": "Long run engagement"
+        },
+        {
+            "info": "Zero Recruitment Fee"
+        },
+        {
+            "info": "Reliable project management"
+        }
+    ],
+    "recruitmentProcessBlock": [
+        {
+            "subHeading": "RECRUITMENT PROCESS",
+            "heading": "Our step by step process to curate the best match for you"
+        }
+    ],
+    "hoverBlock1": [
+        {
+            "blockInfo": "Requirement Gathering"
+        }
+    ],
+    "hoverBlock2": [
+        {
+            "blockInfo": "Formulating & Refining 3d"
+        }
+    ],
+    "hoverBlock3": [
+        {
+            "blockInfo": "Matching with our Database"
+        }
+    ],
+    "hoverBlock4": [
+        {
+            "blockInfo": "Evaluating matched candidates"
+        }
+    ],
+    "hoverBlock5": [
+        {
+            "blockInfo": "Sharing profile & assesment results"
+        }
+    ],
+    "hoverBlock6": [
+        {
+            "blockInfo": "Continous Collaboration"
+        }
+    ],
+    "whyUsBlock": [
+        {
+            "subHeading": "WHY US?",
+            "heading": "We provide flexible plans to cater all your needs",
+            "subPara": "Companies rely upon us for Placements or getting temporary staff. As we get the requirement, we get started in an efficient manner to source the right kind of resources required for the team."
+        }
+    ],
+    "whyUsBlock_1": [
+        {
+            "leftImageURL": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/longterm_Staffing.png?time=1622425898",
+            "rightHeading": "Long-Term or Permanent Staffing",
+            "rightSubPara": "We follow the structured path from screening profile to conducting Interview. This is to make sure that we provide the right resouces based on your requirement.",
+            "iconURL_1": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/recruitment__service__icon__1.png?time=1622425898",
+            "listInfo_1": "Handling Resource Requirement by our own in-house interview panelists who coordinate the whole proceeding.",
+            "iconURL_2": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/recruitment__service__icon__2.png?time=1622425898",
+            "listInfo_2": "Screening Resources through our internal, national, and international network. We screen the candidates with interview questions defined by us and based on the requirement.",
+            "iconURL_3": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/recruitment__service__icon__3.png?time=1622425898",
+            "listInfo_3": "Placement of right candidates by working closely with hiring managers from client side and potential candidates."
+        }
+    ],
+    "whyUsBlock_2": [
+        {
+            "leftImageURL": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/shortterm_staffing.png?time=1622425898",
+            "rightHeading": "Short-Term or Temporary Contract Staffing",
+            "rightSubPara": "We understand business models are changing and businesses want least risk under changing circumstances.",
+            "iconURL_1": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/recruitment__service__icon__4.png?time=1622425898",
+            "listInfo_1": "Time-bound projects, We are ready to provide resources for time-bound project requirements.",
+            "iconURL_2": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/recruitment__service__icon__5.png?time=1622425898",
+            "listInfo_2": "Provide Immediate Resources enabling you to focus on project requirements and completions.",
+            "iconURL_3": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/recruitment__service__icon__6.png?time=1622425898",
+            "listInfo_3": "We handle all (boarding, payroll…..) We will help you source candidates and take the responsibility of onboarding the candidates, look after the payrolls, exit formalities, etc. This way, we create a win-win situation for the business to flourish and make it cost effective and save time."
+        }
+    ],
+    "whyUsBlock_3": [
+        {
+            "leftImageURL": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/recruitment-drives.png?time=1622425898",
+            "rightHeading": "Conducting Recruitment Drives",
+            "rightSubPara": "Some companies, agencies and brands hire us to drive end-to-end mass recruitment drives.",
+            "iconURL_1": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/recruitment__service__icon__7.png?time=1622425898",
+            "listInfo_1": "End-to-end mass requirements where we do all the groundwork and hiring managers from the client side roll out the offers.",
+            "iconURL_2": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/recruitment__service__icon__8.png?time=1622425898",
+            "listInfo_2": "Getting Requirements by coordinating with our client’s internal recruitment team.",
+            "iconURL_3": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/recruitment__service__icon__9.png?time=1622425898",
+            "listInfo_3": "Conducting process (invites, Walk-Ins) We work on creating job invites and conducting walk-in interviews. We source the profile and screen them thoroughly, ask the chosen candidates to attend the interview. "
+        }
     ]
-
 }

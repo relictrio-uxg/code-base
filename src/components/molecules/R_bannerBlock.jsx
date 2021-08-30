@@ -26,6 +26,13 @@ const Col10 = styled.div`
         margin: 0 auto;
         `;
 
+const Container = styled.div`
+        //background: #eff5fc;
+        width: 100%;
+        //position: relative;
+        padding: 0 0 120px;
+        `;
+
 const ContainerInner = styled.div`
         width: 80%;
         margin: 0 auto;
@@ -51,23 +58,25 @@ const Bannerblock__para = styled.p`
 const R_BannerBlock = () => {
 
     return (
-        <ContainerInner>
-            {RecruitmentPageData.recruitmentBannerBlock.map(data => {
-                return (
-                    <Col4>
-                        <Row>
-                            <Col2>
-                                <img src={data.imgURL} />
-                            </Col2>
-                            <Col10>
-                                <Bannerblock__heading>{data.heading}</Bannerblock__heading>
-                                <Bannerblock__para>{data.subHeading}</Bannerblock__para>
-                            </Col10>
-                        </Row>
-                    </Col4>
-                )
-            })}
-        </ContainerInner>
+        <Container>
+            <ContainerInner>
+                {RecruitmentPageData.recruitmentBannerBlock.map(data => {
+                    return (
+                        <Col4>
+                            <Row>
+                                <Col2>
+                                    <img src={data.imgURL} />
+                                </Col2>
+                                <Col10>
+                                    <Bannerblock__heading>{data.heading}</Bannerblock__heading>
+                                    <Bannerblock__para>{data.subHeading}</Bannerblock__para>
+                                </Col10>
+                            </Row>
+                        </Col4>
+                    )
+                })}
+            </ContainerInner>
+        </Container>
     );
 };
 
