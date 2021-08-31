@@ -95,7 +95,7 @@ const Header = () => {
                                 <Link to="/aboutus"><NavLink>{block.navLink4}</NavLink></Link>
                             </LI>
                             <LI>
-                                <Link to="/"><NavLink>{block.navLink5}</NavLink></Link>
+                                <Link to="/careers"><NavLink>{block.navLink5}</NavLink></Link>
                             </LI>
                         </UL>
                         <LI><Nav_Button bg="#3C50E0" color="#ffffff">{block.btnTxt}</Nav_Button></LI>

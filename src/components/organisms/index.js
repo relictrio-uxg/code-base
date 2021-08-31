@@ -4,3 +4,4 @@ export { default as Footer } from './footer';
 export { default as Body } from './Hiredeveloper';
 
 export { AboutUs } from './AboutUs';
+export { CareersPage } from './Careers';

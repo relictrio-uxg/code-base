@@ -1,6 +1,7 @@
-{
+{ "careers":[
+    {
     "title":"Careers India & Abroad",
-    "subtitle":"Let's Work Together and Explore Opportunities00",
+    "subtitle":"Let's Work Together and Explore Opportunities",
     "Requirements":[
         {
             "img":"https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2021/01/programming-1.png?time=1622425898",
@@ -103,4 +104,7 @@
         }
         
     ]
+}
+]
+
 }

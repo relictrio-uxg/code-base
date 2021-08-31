@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import { HireDeveloper } from './components';
 import { AboutUs, Footer, Header } from './components/organisms';
+import Careers from './components/organisms/Careers';
 
 
 
@@ -13,9 +14,10 @@ function App() {
         <Switch>
           <Route path="/hire-developers" exact component={HireDeveloper}/>
            <Route path="/aboutus" component={AboutUs} /> 
+           <Route path="/careers" component={Careers} />
         </Switch>
       </Router>
-    {/* <Footer /> */}
+     <Footer /> 
     </div>
   );
 }
