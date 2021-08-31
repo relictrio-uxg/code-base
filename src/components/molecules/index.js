@@ -26,3 +26,8 @@ export { default as R_benefits } from './R_benefits';
 export { default as R_card } from './R_card';
 export { default as R_process } from './R_process';
 export { default as R_whyUsBlock } from './R_whyUsBlock';
+
+//Blog Page
+export { default as B_banner } from './B_banner';
+export { default as B_cards } from './B_cards';
+export { default as B_longCard } from './B_longCard';

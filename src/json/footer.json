@@ -53,27 +53,34 @@
     ],
     "quickBlock_info__left" : [
         {
-            "link" : "Home"
+            "link" : "Home",
+            "linkPath" : "/"
         },
         {
-            "link" : "Recruitment"
+            "link" : "Recruitment",
+            "linkPath" : "/recruitment"
         },
         {
-            "link" : "ODC Services"
+            "link" : "ODC Services",
+            "linkPath" : "/odc"
         },
         {
-            "link" : "Hire a Developer"
+            "link" : "Hire a Developer",
+            "linkPath" : "/hireadeveloper"
         }
     ],
     "quickBlock_info__right" : [
         {
-            "link" : "Blogs"
+            "link" : "Blogs",
+            "linkPath" : "/blog"
         },
         {
-            "link" : "Career"
+            "link" : "Career",
+            "linkPath" : "/career"
         },
         {
-            "link" : "About us"
+            "link" : "About us",
+            "linkPath" : "/aboutus"
         }
     ],
     "bottomBlock" : [

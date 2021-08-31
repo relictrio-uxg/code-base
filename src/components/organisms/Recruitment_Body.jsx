@@ -69,7 +69,7 @@ const RecruitmentPage = () => {
 
 
             <R_process />
-            <ODC_knowMore />
+            <ODC_knowMore bg="#3C50E0" color="#8DA4FF" />
             <ODC_latestBlogs />
             <R_card />
             <ODC_getInTouch />

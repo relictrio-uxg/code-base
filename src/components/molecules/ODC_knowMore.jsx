@@ -12,7 +12,7 @@ line-height: 12px;
 text-align: center;
 letter-spacing: 0.5px;
 text-transform: uppercase;
-color: #8DA4FF;
+color: ${(props) => props.color}; 
 padding-top: 80px;
 `;
 
@@ -45,7 +45,7 @@ float: left;
 `;
 
 const InnerContainer = styled.div`
-background: #3C50E0;
+background: ${(props) => props.bg};
 box-shadow: 0px 16px 24px rgba(149, 166, 229, 0.16);
 border-radius: 100px 100px 0px 100px;
 width: 80%;
@@ -54,15 +54,18 @@ margin: 0 auto;
 `;
 
 
-const ODC_knowMore = () => {
+const ODC_knowMore = ({
+    bg,
+    color
+}) => {
     return (
         <>
             <Container>
-                <InnerContainer>
+                <InnerContainer bg={bg}>
                     {KnowMoreData.knowMore.map(more => {
                         return (
                             <>
-                                <SubHeading>{more.subHeading}</SubHeading>
+                                <SubHeading color={color}>{more.subHeading}</SubHeading>
                                 <Heading>{more.heading}</Heading>
                                 <Para>{more.para}</Para>
                                 <Button block="block" color="#3C50E0" bg="#ffffff">{more.btnText}</Button>

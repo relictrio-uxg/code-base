@@ -55,7 +55,7 @@ const ODC_Body = () => {
             <ODC_services_pink />
             <ODC_whyUs/>
             <ODC_ourApproach/>
-            <ODC_knowMore/>
+            <ODC_knowMore bg="#3C50E0" color="#8DA4FF"/>
             <ODC_latestBlogs/>
             <ODC_card/>
             <ODC_getInTouch/>

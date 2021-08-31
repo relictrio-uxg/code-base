@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Button = styled.button`
 padding: 20px 10px;
 border: solid 1px transparent;
-min-width: 175px;
+min-width: 165px;
 cursor: pointer;
 background: ${(props) => props.bg};
 box-shadow: 0px 6px 12px rgba(149, 166, 229, 0.16);
@@ -15,5 +15,6 @@ text-align: center;
 letter-spacing: 0.142857px;
 color: ${(props) => props.color};
 margin: 0 auto;
+margin-top: ${(props) => props.top};
 display: ${(props) => props.block};
 `;

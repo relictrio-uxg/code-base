@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link as LinkFooter } from 'react-router-dom';
 import FooterData from '../../json/footer.json';
 
 const Container = styled.footer`
@@ -62,7 +63,7 @@ const LI = styled.li`
     margin-top: 25px;
 `;
 
-const Link = styled.p`
+const Link = styled(LinkFooter)`
     font-family: "Gilroy-Medium","Gilroy-SemiBold",Helvetica,Arial,sans-serif;
     font-size: 16px;
     line-height: 18px;
@@ -164,14 +165,14 @@ const Footer = () => {
                         <UL_doubleSide>
                             {FooterData.quickBlock_info__left.map(data => {
                                 return (
-                                    <LI_doubleSide><Link>{data.link}</Link></LI_doubleSide>
+                                    <LI_doubleSide><Link to={data.linkPath}>{data.link}</Link></LI_doubleSide>
                                 )
                             })}
                         </UL_doubleSide>
                         <UL_doubleSide>
                             {FooterData.quickBlock_info__right.map(data => {
                                 return (
-                                    <LI_doubleSide><Link>{data.link}</Link></LI_doubleSide>
+                                    <LI_doubleSide><Link to={data.linkPath}>{data.link}</Link></LI_doubleSide>
                                 )
                             })}
                         </UL_doubleSide>
