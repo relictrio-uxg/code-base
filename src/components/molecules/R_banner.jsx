@@ -3,6 +3,10 @@ import styled from 'styled-components';
 import { Button } from '../atoms/Button';
 import RecruitmentPageData from '../../json/recruitmentPage.json';
 
+const Container = styled.div`
+width: 100%;
+`;
+
 const ContainerInner = styled.div`
 width: 80%;
 margin: 0 auto;
@@ -48,29 +52,32 @@ color: #536083;
 max-width: 540px;
 `;
 
-const R_banner = () => {
+const R_banner = (
+    {
+        bannerHeading,
+        bannerContent,
+        bannerBtnTxt,
+        bannerImageURL
+    }
+) => {
     return (
         <>
-            {RecruitmentPageData.recruitmentPage.map(banner => {
-                return (
-                    <>
-                        <ContainerInner>
-                            <R_banner__left>
-                                <R_banner__MainHeading>
-                                    {banner.bannerHeading}
-                                </R_banner__MainHeading>
-                                <R_banner__SubHeading>
-                                    {banner.bannerContent}
-                                </R_banner__SubHeading>
-                                <Button block="inline-block" bg="#3C50E0" color="#ffffff">{banner.bannerBtnTxt}</Button>
-                            </R_banner__left>
-                            <R_banner__right>
-                               <img src= {banner.bannerImageURL}/>
-                            </R_banner__right>
-                        </ContainerInner>
-                    </>
-                )
-            })}
+            <Container>
+                <ContainerInner>
+                    <R_banner__left>
+                        <R_banner__MainHeading>
+                            {bannerHeading}
+                        </R_banner__MainHeading>
+                        <R_banner__SubHeading>
+                            {bannerContent}
+                        </R_banner__SubHeading>
+                        <Button block="inline-block" bg="#3C50E0" color="#ffffff">{bannerBtnTxt}</Button>
+                    </R_banner__left>
+                    <R_banner__right>
+                        <img src={bannerImageURL} />
+                    </R_banner__right>
+                </ContainerInner>
+            </Container>
         </>
     );
 };

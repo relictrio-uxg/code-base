@@ -16,7 +16,15 @@ import RecruitmentPageData from '../../json/recruitmentPage.json';
 const RecruitmentPage = () => {
     return (
         <>
-            <R_banner />
+            {RecruitmentPageData.recruitmentPage.map(banner => {
+                return (
+                    <R_banner bannerHeading={banner.bannerHeading}
+                        bannerContent={banner.bannerContent}
+                        bannerBtnTxt={banner.bannerBtnTxt}
+                        bannerImageURL={banner.bannerImageURL}
+                    />
+                )
+            })}
             <R_BannerBlock />
             <R_benefits />
 

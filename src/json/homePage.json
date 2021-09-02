@@ -1,0 +1,120 @@
+{
+    "recruitmentPage": [
+        {
+            "bannerHeading": "Your Personalised Offshore Partner",
+            "bannerContent": "If you are worried about your development costs skyrocketing and find it difficult to manage it, then we are here to help you.",
+            "bannerBtnTxt": "Get in Touch",
+            "bannerImageURL": "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2021/03/banner__latest_img.png?time=1622425898"
+        }
+    ],
+    "infoODC_LBlock" : [
+        {
+            "subHeading" : "INTRODUCING ODC",
+            "heading" : "Making smart decision is hard",
+            "para" : "Want to know more about ODC or want to set up the ODC based on your requirements!",
+            "btnTxt" : "Know more",
+            "bgImg" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2021/04/Webp.net-compress-image-2.jpg?time=1622425898"
+        }
+    ],
+    "infoODC_RBlock" : [
+        {
+            "borderColor" : "rgba(255,86,122,1)",
+            "bgColor" : "rgba(255,86,122,0.2)",
+            "imgIcon" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/operations__icon.png?time=1622425898",
+            "heading" : "Control on operations & management",
+            "para" : "An ODC on the other side of the globe can facilitate a 24-hour workday. It will allow some overlapping and also some work hours outside your local time. "
+        },
+        {
+            "borderColor" : "rgba(253,180,0,1)",
+            "bgColor" : "rgba(253,180,0,0.2)",
+            "imgIcon" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/timezone__icon.png?time=1622425898",
+            "heading" : "Time zone advantage",
+            "para" : "You manage your ODC as if it were your local IT division. You have your development schedules and deliverables which your ODC team adheres to."
+        },
+        {
+            "borderColor" : "rgba(253,180,0,1)",
+            "bgColor" : "rgba(253,180,0,0.2)",
+            "imgIcon" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/longrun__icon.png?time=1622425898",
+            "heading" : "Long-run Engagement",
+            "para" : "In such a cost-conscious market and feeble global economy, forming an ODC has proved to be an effective way of introducing more agility into the outsourcing relationship for many organizations"
+        },
+        {
+            "borderColor" : "rgba(60,80,224,1)",
+            "bgColor" : "rgba(60,80,224,0.2)",
+            "imgIcon" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/quality__icon-1.png?time=1622425898",
+            "heading" : "Excellent quality of work",
+            "para" : "Quality is priority. Our ODC have long-term relationships with most of our clients. We have always taken good care of their best interests by continuously fine-tuning through customer feedback."
+        },
+        {
+            "borderColor" : "rgba(59,190,155,1)",
+            "bgColor" : "rgba(59,190,155,0.2)",
+            "imgIcon" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/team__icon.png?time=1622425898",
+            "heading" : "Dedicated development team",
+            "para" : "Once a team of software engineers is assigned, doesn't change its structure unless there is a request to do it. This stability of the team ensures higher productivity and helps to maintain minimum learning curve"
+        },
+        {
+            "borderColor" : "rgba(255,86,122,1)",
+            "bgColor" : "rgba(255,86,122,0.2)",
+            "imgIcon" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/security__icon.png?time=1622425898",
+            "heading" : "Security & confidentiality",
+            "para" : "Security policy is designed according to your requirements and regulations. You have every guarantee that only your team members have access to the work place, and network security is built. To manage your remote team you are provided with a number of reliable communication services."
+        }
+    ],
+    "howWeWork_LBlock" : [
+        {
+            "subHeading" : "HOW WE WORK",
+            "heading" : "How we provide the best solutions to our clients?",
+            "para" : "UXGURUS always strives to be at the top levels when it comes to servicing esteemed clients as we believe excellence is everything. Our process is simple and works seamlessly for brands, individual clients, and agencies at all levels. Our only focus is to provide you with the most viable candidates to better your business",
+            "btnTxt" : "Start Process"
+        }
+    ],
+    "howWeWork_RBlock" : [
+        {
+            "list":"Share us your requirement"
+        },
+        {
+            "list":"We recruit the experienced staff"
+        },
+        {
+            "list":"Receive reports from your team daily"
+        },
+        {
+            "list":"Manage your remote team"
+        }
+    ],
+    "hireDeveloper_LBlock" : [
+        {
+            "subHeading" : "HIRE A DEVELOPER",
+            "heading" : "Work with highly skilled Offshore Developers",
+            "para" : "Hire top-notch and highly skilled developers offshore to reduce the costs and time of delivery. The in-house talent pool we have possess expertise on all the available domains.",
+            "btnTxt_1" : "Hire now",
+            "btnTxt_2" : "Know More"
+        }
+    ],
+    "hireDeveloper_RBlock" : [
+        {
+            "iconURL" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/scale__icon.png?time=1622425898",
+            "heading" : "Scale Team within week",
+            "borderColor" : "rgba(255,86,122,1)",
+            "bg" : "rgba(255,86,122,0.2)"
+        },
+        {
+            "iconURL" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/remote__icon.png?time=1622425898",
+            "heading" : "Trusted Remote Process",
+            "borderColor" : "rgba(253,180,0,1)",
+            "bg" : "rgba(253,180,0,0.2)"
+        },
+        {
+            "iconURL" :"https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/trans_icon.png?time=1622425898",
+            "heading" : "Transparency is Guaranteed",
+            "borderColor" : "rgba(60,80,224,1)",
+            "bg" : "rgba(60,80,224,0.2)"
+        },
+        {
+            "iconURL" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/skill__icon.png?time=1622425898",
+            "heading" : "Skill Evaluation & Planned Interview",
+            "borderColor" : "rgba(59,190,155,1)",
+            "bg" : "rgba(59,190,155,0.2)"
+        }
+    ]
+}

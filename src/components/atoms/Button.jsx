@@ -16,5 +16,6 @@ letter-spacing: 0.142857px;
 color: ${(props) => props.color};
 margin: 0 auto;
 margin-top: ${(props) => props.top};
+margin-left: ${(props) => props.left};
 display: ${(props) => props.block};
 `;

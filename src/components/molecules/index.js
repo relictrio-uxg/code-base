@@ -31,3 +31,8 @@ export { default as R_whyUsBlock } from './R_whyUsBlock';
 export { default as B_banner } from './B_banner';
 export { default as B_cards } from './B_cards';
 export { default as B_longCard } from './B_longCard';
+
+//Home Page
+export { default as H_infoODC } from './H_infoODC';
+export { default as H_howWeWork } from './H_howWeWork';
+export { default as H_hireDeveloper } from './H_hireDeveloper'; 
