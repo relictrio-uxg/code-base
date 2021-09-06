@@ -62,7 +62,7 @@ const ODC_banner = () => {
                                 <Uxgbanner__SubHeading>
                                     {banner.bannerContent}
                                 </Uxgbanner__SubHeading>
-                                <Button block="inline-block" bg="#3C50E0" color="#ffffff">Get in Touch</Button>
+                                <Button width="165px" block="inline-block" bg="#3C50E0" color="#ffffff">Get in Touch</Button>
                             </Uxgbanner__left>
                             <Uxgbanner__right>
                                <img src= {banner.bannerImageURL}/>

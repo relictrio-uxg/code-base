@@ -68,7 +68,7 @@ const ODC_knowMore = ({
                                 <SubHeading color={color}>{more.subHeading}</SubHeading>
                                 <Heading>{more.heading}</Heading>
                                 <Para>{more.para}</Para>
-                                <Button block="block" color="#3C50E0" bg="#ffffff">{more.btnText}</Button>
+                                <Button width="165px" block="block" color="#3C50E0" bg="#ffffff">{more.btnText}</Button>
                             </>
                         )
                     })}

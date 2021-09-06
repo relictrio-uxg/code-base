@@ -89,8 +89,8 @@ const ODC_card = () => {
                                             </>
                                         )
                                     })}
-                                    <Button bg="#3C50E0" color="#ffffff">{data.btnText_1}</Button>
-                                    <Button color="#3C50E0" bg="#ffffff">{data.btnText_2}</Button>
+                                    <Button width="165px" bg="#3C50E0" color="#ffffff">{data.btnText_1}</Button>
+                                    <Button width="165px" color="#3C50E0" bg="#ffffff">{data.btnText_2}</Button>
                                 </BlockContainer>
                             </>
                         )

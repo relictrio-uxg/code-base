@@ -150,7 +150,7 @@ const ODC_latestBlogs = () => {
                             <LeftBlock>
                                 <LeftBlock_SubHeading>{data.subHeading}</LeftBlock_SubHeading>
                                 <LeftBlock_Heading>{data.heading}</LeftBlock_Heading>
-                                <Button color="#3C50E0" bg="#ffffff">{data.btnTxt}</Button>
+                                <Button width="165px" color="#3C50E0" bg="#ffffff">{data.btnTxt}</Button>
                             </LeftBlock>
                         )
                     })}

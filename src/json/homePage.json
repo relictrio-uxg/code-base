@@ -116,5 +116,131 @@
             "borderColor" : "rgba(59,190,155,1)",
             "bg" : "rgba(59,190,155,0.2)"
         }
+    ],
+    "globalRecruitmentBlock" : [
+        {
+            "subHeading":"Global Recruitment",
+            "heading":"Searching talents for your onsite team?",
+            "para":"We cater to all your needs, whether its about full-time recruitment’s, partnership or ongoing management support.",
+            "btnTxt":"Get in Touch"
+        }
+    ],
+    "keyTechnologiesBlock" : [
+        {
+            "imgURL" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2021/04/Webp.net-compress-image-3.jpg?time=1622425898",
+            "subHeading" : "KEY TECHNOLOGIES",
+            "heading" : "Delivering right solution using latest market tools",
+            "para" : "We continuously upscale our technology and provide development technology for almost all the verticals"
+        }
+    ],
+
+    "whyUsBlock" : [
+        {
+            "subHeading" : "WHY US?",
+            "heading" : "We transform businesses successfully through our services"
+        }
+    ],
+    "carouselBlock" : [
+        {
+            "bg" : "rgba(255,86,112,0.1)",
+            "imgURL" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/nda__icon.png?time=1622425898",
+            "blockTxt" : "Experienced, exceptionally skilled, and certified developers",
+            "blockPara" : "We are a group of highly enthusiastic developers and designers with over 15-20 years of experience who know the industry inside out. Our developers are well trained and can work on your projects with 100% dedication."
+        },
+        {
+            "bg" : "rgba(60,80,224,0.1);",
+            "imgURL" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/transaparency__icon.png?time=1622425898",
+            "blockTxt" : "Complete transparency and control",
+            "blockPara" : "We believe and encourage a transparent work environment as its one of the company’s core values. Our open floor plan fosters open communication."
+        },
+        {
+            "bg" : "rgba(253,180,0,0.1);",
+            "imgURL" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/hybrid__icon.png?time=1622425898",
+            "blockTxt" : "Hybrid model for onsite and offshore support",
+            "blockPara" : "We follow a combination of both onsite and offshore support models to bring the best of both worlds, along with maximizing efficiency and optimizing costs."
+        },
+        {
+            "bg" : "rgba(255,86,112,0.1)",
+            "imgURL" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/nda__icon.png?time=1622425898",
+            "blockTxt" : "NDA & ownership of work",
+            "blockPara" : "To ensure the security and confidentiality of information, we execute a Non-Disclosure Agreement (NDA) with the Client. Any confidential information received from third parties and clients are held in strictest confidence and employees are not allowed to disclose or use it."
+        },
+        {
+            "bg" : "rgba(59,190,115,0.1);",
+            "imgURL" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/trust__icon.png?time=1622425898",
+            "blockTxt" : "100% safe and trustworthy",
+            "blockPara" : "Our work style is to follow a consultative approach. Be it the client data or the service we provide, we give 100% assurance that you can trust us."
+        },
+        {
+            "bg" : "rgba(253,180,0,0.1);",
+            "imgURL" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/hybrid__icon.png?time=1622425898",
+            "blockTxt" : "Ready to use IT infrastructure",
+            "blockPara" : "Our office infrastructure includes - office space, hardware, software, and communication facilities."
+        }
+    ] ,
+    "tailordedSetupPlanBlock" : [
+        {
+            "subHeading" : "TAILORDED SETUP PLANS",
+            "heading" : "Our engagement models for setting up ODC with ease",
+            "para" : "Choosing the right engagement model is one of the most important decisions in any Offshore outsourcing engagement"
+        }
+    ] ,
+    "tailordedSetupPlanCard" : [
+        {
+            "subHeading" : "Major Team",
+            "heading" : "Fixed Cost Model",
+            "list_1" : "Infrastructure in place",
+            "list_2" : "Timeframe and cost are fixed",
+            "list_3" : "Well defined scope & Specifications",
+            "list_4" : "Post time clients will be chargeable",
+            "btnTxt" : "Select this Plan",
+            "moreInfo" : "GET MORE INFORMATION"
+        },
+        {
+            "subHeading" : "SMALL TEAM",
+            "heading" : "Time and Material Model",
+            "list_1" : "Infrastructure in place",
+            "list_2" : "Timeframe and cost are fixed",
+            "list_3" : "Flexibility in Resource allocation",
+            "list_4" : "Projects Iterations",
+            "btnTxt" : "Select this Plan",
+            "moreInfo" : "GET MORE INFORMATION"
+        },
+        {
+            "subHeading" : "Individual/small team",
+            "heading" : "Resources Hiring Model",
+            "list_1" : "Infrastructure in place",
+            "list_2" : "Suitable for Multiple sized projects",
+            "list_3" : "Simple pricing system",
+            "list_4" : "Monthly Charged",
+            "btnTxt" : "Select this Plan",
+            "moreInfo" : "GET MORE INFORMATION"
+        }
+    ],
+    "testimonialsBlock" : [
+        {
+            "subHeading" : "TESTIMONIALS",
+            "heading" : "What does our clients say about us"
+        }
+    ],
+    "testimonialsCards" : [
+        {
+            "iconURL" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2021/04/imagesclient__image1_r3pcp.jpg?time=1622425898",
+            "CardName" : "Frank Gustav",
+            "CardPara" : "UXGurus's team is very approachable and professional. They are able to understand the needs of our organization and what we are looking for in terms of candidates specifically. They are very attentive throughout.",
+            "CardBy" : "Vice President, Intel"
+        },
+        {
+            "iconURL" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2021/04/imagesclient__image2_gsLbc.jpg?time=1622425898",
+            "CardName" : "Suresh Jaisawal",
+            "CardPara" : "UxGurus have been very responsive to our requests, bringing the right skillset, on-time & every time.  They have carved a niche in a chosen area. This is compelling us to continue our engagement in the days to come. It has been a win-win situation for all stakeholders.",
+            "CardBy" : "Director, Pexcel"
+        },
+        {
+            "iconURL" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2021/04/imagesclient__image3_4lqDG.jpg?time=1622425898",
+            "CardName" : "Lakshmi Sharma",
+            "CardPara" : "UXGurus's team is very approachable and professional. They are able to understand the needs of our organization and what we are looking for in terms of candidates specifically. They are very attentive throughout.",
+            "CardBy" : "Founder, Dekho Digital"
+        }
     ]
 }

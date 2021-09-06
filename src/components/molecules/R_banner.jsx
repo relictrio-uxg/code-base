@@ -71,7 +71,7 @@ const R_banner = (
                         <R_banner__SubHeading>
                             {bannerContent}
                         </R_banner__SubHeading>
-                        <Button block="inline-block" bg="#3C50E0" color="#ffffff">{bannerBtnTxt}</Button>
+                        <Button width="165px" block="inline-block" bg="#3C50E0" color="#ffffff">{bannerBtnTxt}</Button>
                     </R_banner__left>
                     <R_banner__right>
                         <img src={bannerImageURL} />

@@ -96,7 +96,7 @@ const ODC_getInTouch = () => {
                    </>
                 </Form>
                 <Input placeholder={info.msg}/>
-                <Button style={{marginTop:"64px"}} color="#3C50E0" bg="#ffffff">{info.btnTxt}</Button>
+                <Button style={{marginTop:"64px"}} width="165px" color="#3C50E0" bg="#ffffff">{info.btnTxt}</Button>
                 </RightCol>
                 
                 </>

@@ -80,8 +80,8 @@ const B_longCard = () => {
                         <LeftBlock>
                             <SubHeading>{data.subHeading}</SubHeading>
                             <Heading>{data.heading}</Heading>
-                            <Button top="30px" block="inline-block" bg="#3C50E0" color="#ffffff">{data.btnText_1}</Button>
-                            <Button top="30px" block="inline-block" bg="#ffffff" color="#3C50E0">{data.btnText_2}</Button>
+                            <Button width="165px" top="30px" block="inline-block" bg="#3C50E0" color="#ffffff">{data.btnText_1}</Button>
+                            <Button width="165px" top="30px" block="inline-block" bg="#ffffff" color="#3C50E0">{data.btnText_2}</Button>
                         </LeftBlock>
                         )
                     })}

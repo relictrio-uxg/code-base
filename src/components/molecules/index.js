@@ -36,3 +36,8 @@ export { default as B_longCard } from './B_longCard';
 export { default as H_infoODC } from './H_infoODC';
 export { default as H_howWeWork } from './H_howWeWork';
 export { default as H_hireDeveloper } from './H_hireDeveloper'; 
+export { default as H_globalRecruitment } from './H_globalRecruitment';
+export { default as H_keyTechnologies } from './H_keyTechnologies';
+export { default as H_whyUs } from './H_whyUs';
+export { default as H_tailordedSetupPlan } from './H_tailordedSetupPlan';
+export { default as H_testimonials } from './H_testimonials';

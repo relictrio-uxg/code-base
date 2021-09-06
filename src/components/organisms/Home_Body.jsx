@@ -1,10 +1,17 @@
 import React from 'react';
-import { 
+import {
     R_banner,
     H_infoODC,
+    H_keyTechnologies,
+    H_whyUs,
+    H_tailordedSetupPlan,
     H_howWeWork,
-    H_hireDeveloper
- } from '../molecules';
+    H_hireDeveloper,
+    H_globalRecruitment,
+    H_testimonials,
+    ODC_latestBlogs,
+    ODC_getInTouch
+} from '../molecules';
 import HomePageData from '../../json/homePage.json'
 
 const Home_Body = () => {
@@ -19,9 +26,16 @@ const Home_Body = () => {
                     />
                 )
             })}
-            <H_infoODC/>
-            <H_howWeWork/>
-            <H_hireDeveloper/>
+            <H_infoODC />
+            <H_keyTechnologies/>
+            <H_whyUs/>
+            <H_tailordedSetupPlan/>
+            <H_howWeWork />
+            <H_hireDeveloper />
+            <H_globalRecruitment />
+            <H_testimonials/>
+            <ODC_latestBlogs />
+            <ODC_getInTouch />
         </>
     )
 }

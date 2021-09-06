@@ -96,7 +96,7 @@ const H_howWeWork = () => {
                             <SubHeading>{data.subHeading}</SubHeading>
                             <Heading>{data.heading}</Heading>
                             <Para>{data.para}</Para>
-                            <Button bg="#3C50E0" color="#ffffff">{data.btnTxt}</Button>
+                            <Button width="165px" bg="#3C50E0" color="#ffffff">{data.btnTxt}</Button>
                         </L_Block>
                     )
                 })}

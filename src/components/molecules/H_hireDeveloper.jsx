@@ -97,8 +97,8 @@ const H_hireDeveloper = () => {
                             <L_SubHeading>{data.subHeading}</L_SubHeading>
                             <L_Heading>{data.heading}</L_Heading>
                             <L_Para>{data.para}</L_Para>
-                            <Button bg="#3C50E0" color="#ffffff">{data.btnTxt_1}</Button>
-                            <Button left="30px" color="#3C50E0" bg="#ffffff">{data.btnTxt_2}</Button>
+                            <Button width="165px" bg="#3C50E0" color="#ffffff">{data.btnTxt_1}</Button>
+                            <Button width="165px" left="30px" color="#3C50E0" bg="#ffffff">{data.btnTxt_2}</Button>
                         </L_Block>
                     )
                 })}
