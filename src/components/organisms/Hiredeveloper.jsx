@@ -13,6 +13,7 @@ function Body(props){
           <Technologies /> 
           <WhyUs />
           <FurtherDetails />
+          <Blog />
           <Card />
            <GetInTouch /> 
            

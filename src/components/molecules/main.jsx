@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import styled from 'styled-components'
 import hireadeveloper__bannerimg from '../../assets/img/hireadeveloper__bannerimg.png'
-import Button from '../atoms/Button';
 import Data from '../../json/hireDeveloper.json';
+import { GetInTOuch } from '../atoms/Btn';
+
 
 
 
@@ -11,7 +12,8 @@ class Main extends Component{
     const Body = styled.h1`
     width:100%;
     height:600px;
-    padding:100px 0px;
+    padding:80px 0px;
+    margin-top:0px;
     background:#F3F7FC;
     @media only screen and (max-width: 600px) {
       height:750px;
@@ -48,6 +50,8 @@ class Main extends Component{
     font-size: 36px;
     line-height: 52px;
     letter-spacing: .01em;
+    margin-top:0px;
+    padding-top:50px;
   }
   `
   const SubHeading = styled.h3`
@@ -78,6 +82,10 @@ const SecondColumn = styled.div`
 `
 const Img = styled.img`
 width:90%;
+margin-left:50px;
+@media only screen and (max-width: 600px) {
+  margin-left:0px;
+}
 `
     return(
       <Body>
@@ -88,7 +96,7 @@ width:90%;
            <FirstColumn>
              <MianHeading>{post.head}</MianHeading>
              <SubHeading>{post.subhead}</SubHeading>
-             <Button />
+             <GetInTOuch />
            </FirstColumn>
 
            <SecondColumn>

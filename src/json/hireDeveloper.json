@@ -165,6 +165,51 @@
         }
     ],
 
+    "Blog":[
+      {
+        "title" : "LATEST BLOGS",
+        "subtitle" : "Our recent articles for your to read"
+    }
+   ],
+
+   "carouselBlock" : [
+    {
+        "imgURL" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2021/04/food.jpeg",
+        "blockTxt" : "Mobile Application",
+        "blockPara" : "Why Should You Invest in Restaurant App Development?",
+        "txt":"Written By",
+        "authorName":"Sans"
+    },
+    {
+        "imgURL" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2021/04/opt.jpeg",
+        "blockTxt" : "ODC",
+        "blockPara" : "Why Should One opt for the ODC Model? ",
+        "txt":"Written By",
+        "authorName":"Sans"
+    },
+    {
+        "imgURL" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2021/04/skills.jpeg",
+        "blockTxt" : "Hire Developer",
+        "blockPara" : "Essential Skills Needed to be A Good Front End Developer",
+        "txt":"Written By",
+        "authorName":"Sans"
+    },
+    {
+        "imgURL" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2021/04/time.jpeg",
+        "blockTxt" : "Global requirement",
+        "blockPara" : "Top Benefits of a Recruitment Agency for Your Business",
+        "txt":"Written By",
+        "authorName":"Sans"
+    },
+    {
+        "imgURL" : "https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2021/04/piggy.jpeg",
+        "blockTxt" : "ODC",
+        "blockPara" : "What Are the Benefits of Offshore Development Center?",
+        "txt":"Written By",
+        "authorName":"Relictrio Team"
+    }
+    ],
+
 
   "gitinTouch":[
        {

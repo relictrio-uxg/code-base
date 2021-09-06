@@ -20,7 +20,7 @@ const Wrapper = styled.div`
 `;
 
 export const Text = styled.div`
-  margin:200px;
+  margin:150px;
   @media only screen and (max-width: 768px) {
     margin:20px;
 }

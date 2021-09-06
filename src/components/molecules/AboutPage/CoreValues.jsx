@@ -7,10 +7,10 @@ export class CoreValues extends Component{
  render(){
     const Body = styled.h1`
     width:100%;
-    height:400px;
+    height:600px;
     background:#F5F8FD;
     padding:0px 0px;
-    margin:150px 0px 0px 0px;
+    margin:0px 0px 0px 0px;
     @media only screen and (max-width: 600px) {
       height:700px;
     }
@@ -19,7 +19,7 @@ export class CoreValues extends Component{
   const BenigitBody = styled.div`
     width:80%;
     margin-left:150px;
-    padding:100px 0px 100px 0px;
+    padding:0px 0px 100px 0px;
     border: 1px solid #f5f6f9;
     box-sizing: border-box;
     border-radius: 80px 80px 0 80px;
@@ -72,7 +72,7 @@ export class CoreValues extends Component{
  
 const Columns = styled.div`
 display: grid;
-padding:25px 0px 0px 0px; 
+padding:150px 0px 0px 0px; 
 display: flex; 
 justify-content: space-around; 
 @media only screen and (max-width: 600px) {

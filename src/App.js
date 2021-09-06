@@ -13,8 +13,8 @@ function App() {
       <Router>
         <Switch>
           <Route path="/hire-developers" exact component={HireDeveloper}/>
-           <Route path="/aboutus" component={AboutUs} /> 
-           <Route path="/careers" component={Careers} />
+           <Route path="/aboutus" exact component={AboutUs} /> 
+           <Route path="/careers" exact component={Careers} />
         </Switch>
       </Router>
      <Footer /> 

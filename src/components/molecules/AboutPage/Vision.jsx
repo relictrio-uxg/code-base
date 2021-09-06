@@ -12,6 +12,7 @@ export class Vision extends Component{
     margin:250px 0px 150px 0px;
     @media only screen and (max-width: 600px) {
       margin:150px 0px 0px 0px;
+      height:600px;
     }
   `;
 

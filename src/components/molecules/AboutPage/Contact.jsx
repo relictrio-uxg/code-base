@@ -26,8 +26,7 @@ export class Contact extends Component{
     @media only screen and (max-width: 600px) {
       margin:0px;
       width:100%;
-      border-radius: 42px 42px 0 42px;
-      padding:80px 0px;
+      
     }
   `
 

@@ -7,14 +7,13 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 
-import Data from '../../json/hireDeveloper.json';
-import { ViewMore } from '../atoms/Btn';
+import Data from '../../../json/hireDeveloper.json';
+import { ViewMore } from '../../atoms/Btn';
 
 const Container = styled.div`
     background: #ffffff;
     float: left;
     width: 100%;
-    height:auto;
     padding: 20px 0 40px 0px;
     @media only screen and (max-width: 768px) {
         padding: 0px 0px 0px;
@@ -26,7 +25,6 @@ const InnerContainer = styled.div`
     padding: 15px 0;
     margin: 0 auto;
     display: flex;
-    height:auto;
     justify-content: space-between;
     align-items: center;
     @media (max-width: 768px) {
@@ -165,7 +163,7 @@ const options = {
 };
 
 
-export const Blog = () => {
+export const Career_Blog = () => {
     return (
         <>
             <Container>
@@ -174,7 +172,7 @@ export const Blog = () => {
                         return (
                             <LeftBlock>
                                 <LeftBlock_SubHeading>{data.title}</LeftBlock_SubHeading>
-                                <LeftBlock_Heading>Our recent articles for your to read</LeftBlock_Heading>
+                                <LeftBlock_Heading>Relevant Articles</LeftBlock_Heading>
                                 <ViewMore />
                                 <OwlCarousel></OwlCarousel>
                             </LeftBlock>

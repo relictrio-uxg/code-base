@@ -1,5 +1,5 @@
 import React from 'react';
-import { Blog, Careers, FurtherDetails, GetInTouch, JournySection, Technologies } from '../molecules';
+import { Blog, Careers, Career_Blog, FurtherDetails, GetInTouch, JournySection, Technologies, Touch } from '../molecules';
 
 export const CareersPage = () => {
     return(
@@ -7,7 +7,8 @@ export const CareersPage = () => {
             <Careers />
             <FurtherDetails />
             {/* <JournySection /> */}
-            <GetInTouch />
+            <Career_Blog />
+            <Touch />
         </div>
     )
 }

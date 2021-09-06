@@ -1,5 +1,5 @@
 import React from 'react';
-import { BannerSection, Contact, CoreValues, FooterList, FurtherDetails, GetInTouch, IntroSection, JournySection, Mission, Strength, Vision, WhoWeAre } from '../molecules';
+import { BannerSection, Blog, Contact, CoreValues, FooterList, FurtherDetails, GetInTouch, IntroSection, JournySection, Mission, Strength, Vision, WhoWeAre } from '../molecules';
  
 
 

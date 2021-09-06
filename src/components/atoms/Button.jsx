@@ -2,10 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components'
 
 
-
-class Button extends Component{
- render(){
-    const ButtonWrapper = styled.div`
+const ButtonWrapper = styled.div`
     color: #ffffff;
     padding: 20px 10px;
     border: solid 1px #3c50e0;
@@ -27,12 +24,13 @@ class Button extends Component{
 }
     }
   `;
+export const Button = () => {
+    
     return(
      <ButtonWrapper>
       Get Started
      </ButtonWrapper>
     )
- }
 }
 
 export default Button;
@@ -54,3 +52,4 @@ color: ${(props) => props.color};
 margin: 0 auto;
 display: ${(props) => props.block};
 `;
+

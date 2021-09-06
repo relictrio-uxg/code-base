@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components'
 import Data from '../../json/hireDeveloper.json';
+import { WhiteInTOuch } from '../atoms/Btn';
 
 
 class FurtherDetails extends Component{
@@ -10,7 +11,8 @@ class FurtherDetails extends Component{
     height:400px;
     padding:100px 0px;
     @media only screen and (max-width: 600px) {
-      
+      padding:150px 0px 50px 0px;
+      height:auto;
     }
   `;
 
@@ -97,6 +99,7 @@ font-family:400;
              <Benifitsheading>{item.title}</Benifitsheading>
              <Subsheading>{item.bigtitle}</Subsheading>
              <Paragraph>{item.smalltitle}</Paragraph>
+             <WhiteInTOuch/>
             </div>
           
           </BenigitBody>

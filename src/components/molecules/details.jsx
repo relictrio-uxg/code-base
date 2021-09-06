@@ -131,13 +131,13 @@ export const Details = (props) => {
           return(
             <>
               <BenigitBody>
-               <Grid>
+               {/* <Grid>
                   <IconColumn>
                    <Img src={item.icon} />
                    <IconHeading>{item.title}</IconHeading>
                    <SubHeading>{item.subtitle}</SubHeading>
                   </IconColumn>
-               </Grid>
+               </Grid> */}
               </BenigitBody>
              </>
               )

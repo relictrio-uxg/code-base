@@ -16,7 +16,7 @@ export class Mission extends Component{
           padding:0px;
   margin-top:0px;
   display:block;
-  height:900px;
+  height:700px;
         }
       `;
     
@@ -52,7 +52,7 @@ export class Mission extends Component{
       width:650px;
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-      margin: 20px 0;
+      margin: 20px 0px 20px 0px;
       @media only screen and (max-width: 600px) {
           flex-direction:column;
           margin: 20px 0;
@@ -82,32 +82,25 @@ export class Mission extends Component{
       }
       `
       const SubHeading = styled.h3`
-  font-size: 14px;
+      font-size: 14px;
+      line-height: 22px;
+  color:#536083;
+  float:left;
+  margin-top:0px;
   font-weight:500;
-  line-height: 22px;
-  color:#536083b0;
   @media only screen and (max-width: 600px) {
           
   }
   `
     
-    const Img = styled.div`
-     text-align:left;
-     width: 88px;
-    height: 48px;
-    @media only screen and (max-width: 600px) {
-      width: 48px;
-      height: 48px;
-      margin: 8px;
-    }
-    `
+  
     const IconHeading = styled.h4`
-    font-size: 24px;
-    line-height: 32px;
-    display: flex;
-    align-items: center;
-    color:#00005c;
-    margin: 30px 0;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: .025em;
+    color: #00005c;
+    white-space: nowrap;
+    display:block;
     font-family:"Gilroy-SemiBold",Helvetica,Arial,Verdana,Tahoma,sans-serif;
     @media only screen and (max-width: 600px) {
       font-size: 18px;
@@ -121,8 +114,8 @@ export class Mission extends Component{
 
     const IconColumn = styled.div`
     max-width: 250px;
-    margin: 30px 55px 0;
     position: relative;
+    margin-left:50px;
     @media only screen and (max-width: 600px) {
       max-width: 300px;
       margin: 15px 20px ;
@@ -148,7 +141,25 @@ const Columns = styled.div`
 display: grid;
 padding:25px 0px 0px 0px; 
 display: flex; 
+margin-left:50px;
 justify-content: space-around; 
+@media only screen and (max-width: 600px) {
+  margin-left:0px;
+}
+`
+const Para = styled.p`
+background: #fff1f2;
+border-radius: 6px;
+float: left;
+text-align:center;
+padding:10px 15px 10px 15px;
+margin-right: 15px;
+font-family: "Gilroy-SemiBold",Helvetica,Arial,Verdana,Tahoma,sans-serif;
+font-size: 20px;
+line-height: 28px;
+letter-spacing: .025em;
+color: #536083;
+position: relative;
 `
 
      return(
@@ -168,7 +179,7 @@ justify-content: space-around;
                  return(
                    <>
               <IconColumn>
-               <Img><p>{index.number} </p></Img>
+               <Para>{index.number} </Para>
               <IconHeading>{index.heading}</IconHeading>
               <SubHeading>{index.para}</SubHeading>
               </IconColumn>

@@ -16,7 +16,9 @@ margin-top:-25px;
 @media only screen and (max-width: 600px) {
   padding:0px;
   margin-top:-25px;
+  height:700px;
 }
+
 `;
 
 export const BenigitBody = styled.div`
@@ -55,7 +57,7 @@ text-transform: uppercase;
 font-family:"Gilroy-Bold",Helvetica,Arial,Verdana,Tahoma,sans-serif;
 color:#3c50e0;
 @media only screen and (max-width: 600px) {
-  .example {background: red;}
+  
 }
 `
 

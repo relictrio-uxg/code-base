@@ -9,7 +9,7 @@ export class Strength extends Component{
     width:100%;
     height:400px;
     padding:0px 0px;
-    margin:600px 0px 150px 0px;
+    margin:350px 0px 150px 0px;
     @media only screen and (max-width: 600px) {
       display:block;
       display:none;
@@ -79,6 +79,7 @@ const Paragraph = styled.p`
     letter-spacing: .142857px;
     color: #536083;
     max-width: 445px;
+    margin-left:130px;
     font-family: "Inter-Regular",Helvetica,Arial,Verdana,Tahoma,sans-serif;
 @media only screen and (max-width: 600px) {
  

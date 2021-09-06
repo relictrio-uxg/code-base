@@ -2,6 +2,7 @@ import { width } from '@material-ui/system';
 import React, { Component } from 'react';
 import styled from 'styled-components'
 import Data from '../../json/hireDeveloper.json';
+import { HireNow } from '../atoms/Btn/HireNow';
 
 
 
@@ -16,7 +17,7 @@ class WhyUs extends Component{
           padding:0px;
   margin-top:100px;
   display:block;
-  height:900px;
+  height:1350px;
         }
       `;
     
@@ -67,7 +68,9 @@ class WhyUs extends Component{
       font-family:"Gilroy-Bold",Helvetica,Arial,Verdana,Tahoma,sans-serif;;
       color:#3c50e0;
       @media only screen and (max-width: 600px) {
-          
+        font-size: 14px;
+        margin:0px;
+        text-transform: uppercase;
       }
       `
     
@@ -78,7 +81,8 @@ class WhyUs extends Component{
       margin: 25px 0 0;
       font-family: "Gilroy-SemiBold",Helvetica,Arial,Verdana,Tahoma,sans-serif;
       @media only screen and (max-width: 600px) {
-          
+        font-size: 26px;
+        line-height: 38px;
       }
       `
       const SubHeading = styled.h3`
@@ -87,7 +91,11 @@ class WhyUs extends Component{
   line-height: 22px;
   color:#536083b0;
   @media only screen and (max-width: 600px) {
-          
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    letter-spacing: .142857px;
   }
   `
     
@@ -138,31 +146,48 @@ class WhyUs extends Component{
     font-weight:500;
     font-family:"Inter-Regular",Helvetica,Arial,Verdana,Tahoma,sans-serif;
     @media only screen and (max-width: 600px) {
-      font-style: normal;
+      ont-style: normal;
       font-weight: 400;
-      font-size: 15px;
-      line-height: 23px;
+      font-size: 17px;
+      line-height: 28px;
+      letter-spacing: .142857px;
+      padding:20px 20px 30px 0px;
+      margin:0px;
     }
     `
 const Columns = styled.div`
 display: grid;
-padding:25px 0px 0px 0px; 
+padding:0px 0px 0px 0px; 
 display: flex; 
 justify-content: space-around; 
 `
-
+const ResponsivetCol = styled.div`
+ display:none;
+ @media only screen and (max-width: 600px) {
+  display:block;
+  padding:20px;
+}
+`
      return(
        <Body>
         <WhyUs>
           {Data.whyus.map(item => {
            return(
             <>
+               <ResponsivetCol>
+                <Benifitsheading>{item.heading}</Benifitsheading>
+                <Subsheading>{item.subheading}</Subsheading>
+                <Paragraph>{item.text}</Paragraph>
+                <HireNow />
+              </ResponsivetCol>
              <Columns>
               <LeftCol>
                 <Benifitsheading>{item.heading}</Benifitsheading>
                 <Subsheading>{item.subheading}</Subsheading>
                 <Paragraph>{item.text}</Paragraph>
+                <HireNow />
               </LeftCol>
+
               <RightCol>
                 {item.icondata.map(index => {
                  return(

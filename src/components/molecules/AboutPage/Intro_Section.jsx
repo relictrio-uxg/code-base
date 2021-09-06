@@ -19,7 +19,7 @@ const Wrapper = styled(Div)`
 `;
 
 export const Text = styled.div`
-  margin:200px;
+  margin:120px;
   @media only screen and (max-width: 768px) {
     margin:31px;
 }
@@ -33,7 +33,7 @@ line-height: ${lineHeight.lineHeight42};
 text-align: center;
 letter-spacing: .214286px;
 color: #536083;
-max-width: 740px;
+max-width: 700px;
 margin: 0 auto;
 @media only screen and (max-width: 768px) {
     font-style: normal;
