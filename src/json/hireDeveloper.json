@@ -25,6 +25,24 @@
     }
     ],
 
+    "Details":[
+      {
+        "icon":"https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/developer__icon.png?time=1622425898",
+        "title":"Hire less or more developers",
+        "subtitle":"A fast paced setup to quickly onboard talent with wide pool of expertise"
+      },
+      {
+        "icon":"https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/project__icon.png?time=1622425898",
+        "title":"Project on track",
+        "subtitle":"You will have total control over your Developer & easy access to your project."
+      },
+      {
+        "icon":"https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/peaks__icon.png?time=1622425898",
+        "title":"Meet business peaks",
+        "subtitle":"Technology experts to meet business challenges and sudden spike in demand."
+      }
+    ],
+
     "Benifits":[
         {
             "hiring":"Benefits of Hiring",

@@ -9,6 +9,7 @@ export { default as Technologies } from './technologies';
 export { default as WhyUs } from './whyUs';
 export { default as FooterList } from './footerList';
 export { default as BannerBlock } from './bannerBlock';
+export { default as Details } from './details';
 
 
 export * from './AboutPage';

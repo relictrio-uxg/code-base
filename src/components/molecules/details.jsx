@@ -1,10 +1,5 @@
 import React, { Component } from 'react';
 import styled from 'styled-components'
-import hireadeveloper__bannerimg from '../../assets/img/hireadeveloper__bannerimg.png'
-import Button from '../atoms/Button';
-import trustIcon from '../../assets/img/trust-skill__icon.png';
-import recruitmentIcon from '../../assets/img/recruitment__icon.png';
-import integrityIcon from '../../assets/img/integrity__icon.png';
 import Data from '../../json/hireDeveloper.json';
 
 export const Body = styled.h1`
@@ -17,6 +12,7 @@ margin-top:-25px;
   padding:0px;
   margin-top:-25px;
 }
+
 `;
 
 export const BenigitBody = styled.div`
@@ -127,31 +123,20 @@ justifyContent: space-around;
 }
 `
 
-export const Benifits = (props) => {
+export const Details = (props) => {
  return(
  
       <Body>
-        {Data.Benifits.map(item => {
+        {Data.Details.map(item => {
           return(
             <>
               <BenigitBody>
-               <div>
-                <Benifitsheading>{item.hiring}</Benifitsheading>
-                <Subsheading>{item.developer}</Subsheading>
-               </div>
                <Grid>
-                {item.icondata.map(index => {
-                 return(
-                 <>
                   <IconColumn>
-                   <Img src={index.img} />
-                   <IconHeading>{index.iconheading}</IconHeading>
-                   <SubHeading>{index.iconsubheading}</SubHeading>
+                   <Img src={item.icon} />
+                   <IconHeading>{item.title}</IconHeading>
+                   <SubHeading>{item.subtitle}</SubHeading>
                   </IconColumn>
-                 </>
-                 )
-                })
-                }
                </Grid>
               </BenigitBody>
              </>
@@ -163,10 +148,8 @@ export const Benifits = (props) => {
     )
  }
 
- Benifits.defaultProps = {
-  
-};
 
 
 
-export default Benifits;
+
+export default Details;
