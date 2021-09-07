@@ -1,63 +1,75 @@
 import React from "react";
+import './style.css';
+import 'photoswipe/dist/photoswipe.css'
+import 'photoswipe/dist/default-skin/default-skin.css'
 
-const photos = [
-    {src: 'https://source.unsplash.com/2ShvY8Lf6l0/800x599', width:4, height:3},
-    {src: 'https://source.unsplash.com/Dm-qxdynoEc/800x799', width:1, height:1},
-    {src: 'https://source.unsplash.com/qDkso9nvCg0/600x799', width:3, height:4},
-    {src: 'https://source.unsplash.com/iecJiKe_RNg/600x799', width:3, height:4},
-    {src: 'https://source.unsplash.com/epcsn8Ed8kY/600x799', width:3, height:4},
-    {src: 'https://source.unsplash.com/NQSWvyVRIJk/800x599', width:4, height:3},
-    {src: 'https://source.unsplash.com/zh7GEuORbUw/600x799', width:3, height:4},
-    {src: 'https://source.unsplash.com/PpOHJezOalU/800x599', width:4, height:3},
-    {src: 'https://source.unsplash.com/I1ASdgphUH4/800x599', width:4, height:3}
-  ];
+import { Gallery, Item } from 'react-photoswipe-gallery'
+import { ViewMore } from "../../atoms/Btn";
+
+export const GalleryImg = () => (
+  <div className="main">
+  <div className="gallery">
+    <div>
+      <h1 className="title">OUR CULTURE</h1>
+      <p className="subtitle">A Glimpse of our office</p>
+    </div>
+  <Gallery>
+    <Item
+      original="https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/Mask-Group.png?time=1622425898"
+      thumbnail="https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/Mask-Group.png?time=1622425898"
+      width="1024"
+      height="768"
+    >
+      {({ ref, open }) => (
+        <img className="pic" ref={ref} onClick={open} src="https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/Mask-Group.png?time=1622425898" />
+      )}
+    </Item>
+    <Item
+      original="https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/Mask-Group-2.png?time=1622425898"
+      thumbnail="https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/Mask-Group-2.png?time=1622425898"
+      width="1024"
+      height="768"
+    >
+      {({ ref, open }) => (
+        <img className="pics" ref={ref} onClick={open} src="https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/Mask-Group-2.png?time=1622425898" />
+      )}
+    </Item>
+    <Item
+      original="https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/Mask-Group-3.png?time=1622425898"
+      thumbnail="https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/Mask-Group-3.png?time=1622425898"
+      width="1024"
+      height="768"
+    >
+      {({ ref, open }) => (
+        <img className="pics" ref={ref} onClick={open} src="https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/Mask-Group-3.png?time=1622425898" />
+      )}
+    </Item>
+    <Item
+      original="https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/Mask-Group-4.png?time=1622425898"
+      thumbnail="https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/Mask-Group-4.png?time=1622425898"
+      width="1024"
+      height="768"
+    >
+      {({ ref, open }) => (
+        <img className="pics" ref={ref} onClick={open} src="https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/Mask-Group-4.png?time=1622425898" />
+      )}
+    </Item>
+    <Item
+      original="https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/Mask-Group-5.png?time=1622425898"
+      thumbnail="https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/Mask-Group-5.png?time=1622425898"
+      width="1024"
+      height="768"
+    >
+      {({ ref, open }) => (
+        <img className="pics" ref={ref} onClick={open} src="https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/11/Mask-Group-5.png?time=1622425898" />
+      )}
+    </Item>
+  </Gallery>
+  <div style={{textAlign:'center'}}>
+  <ViewMore style={{ marginTop:'150px'}}/>
+  </div>
+  </div>
   
-  class PhotoGallery extends React.Component{
-    constructor(){             
-      super();                 
-      this.state = { currentImage: 0 }; 
-      this.closeLightbox = this.closeLightbox.bind(this); 
-      this.openLightbox = this.openLightbox.bind(this);
-      this.gotoNext = this.gotoNext.bind(this);
-      this.gotoPrevious = this.gotoPrevious.bind(this);
-    }
-    openLightbox(event, obj) {
-      console.log('open')
-      this.setState({
-        currentImage: obj.index,
-        lightboxIsOpen: true,
-      });  
-    }
-    closeLightbox() {
-      this.setState({
-        currentImage: 0,
-        lightboxIsOpen: false,
-      }); 
-    }
-    gotoPrevious() {
-      this.setState({
-        currentImage: this.state.currentImage - 1,                                                           
-      });  
-    }
-    gotoNext() {
-      this.setState({
-        currentImage: this.state.currentImage + 1,                                            
-      }); 
-    }
-    render(){
-      return(
-        <div>
-          {/* <Gallery photos={photos} onClick={this.openLightbox} />
-          <Lightbox images={photos}
-            onClose={this.closeLightbox}
-            onClickPrev={this.gotoPrevious}
-            onClickNext={this.gotoNext}
-            currentImage={this.state.currentImage}
-            isOpen={this.state.lightboxIsOpen}
-          /> */}
-        </div>
-      )
-    }
-  }
-
-  export default PhotoGallery;
+  </div>
+  
+)

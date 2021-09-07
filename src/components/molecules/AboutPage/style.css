@@ -22,3 +22,109 @@
         -webkit-tap-highlight-color: transparent;
     }
 }
+
+.main{
+    background:#F5F8FD; 
+    margin-top: -10px;
+}
+
+.gallery{
+    width: 80%;
+    margin-left: 180px;
+    height: 700px;
+   
+}
+.galleryCol{
+    width: 150%;
+}
+.rightPics{
+    width: 80%;
+    float: right;
+    margin-left:150px ;
+}
+
+.pic{
+    width: 400 !important;
+    height: 410px !important;
+    float:left;
+}
+.pics{
+    width: 200 !important;
+    height: 200px !important;
+    float:left;
+    padding:0px 0px 10px 0px!important;
+    margin: 0px 5px;
+}
+.title{
+    font-family: "Gilroy-Bold",Helvetica,Arial,Verdana,Tahoma,sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #3c50e0;
+}
+
+.subtitle{
+    font-family: "Gilroy-Bold",Helvetica,Arial,Verdana,Tahoma,sans-serif;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    color: #00005c;
+    font-weight: 700;
+    margin: 25px 0 60px;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    
+    .gallery{
+        width: auto;
+        margin-left: 0px;
+        height: 750px;
+        padding: 100px 0px 50px 0px;
+
+    }
+    .galleryCol{
+    
+    }
+    .rightPics{
+        width: 80%;
+        float: right;
+
+    }
+    
+    .pic{
+        width: auto !important;
+        height: 250px !important;
+        float:left;
+        padding: 10px;
+    }
+    .pics{
+        width: 170px !important;
+        height: 100px !important;
+        float:left;
+        padding:0px 0px 10px 0px!important;
+        margin: 0px 5px;
+        padding: 0px 10px 10px 10px;
+    }
+    .title{
+        font-family: "Gilroy-Bold",Helvetica,Arial,Verdana,Tahoma,sans-serif;
+        font-size: 14px;
+        line-height: 14px;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #3c50e0;
+    }
+    
+    .subtitle{
+        font-family: "Gilroy-Bold",Helvetica,Arial,Verdana,Tahoma,sans-serif;
+        font-size: 26px;
+    line-height: 38px;
+    text-align: center;
+        color: #00005c;
+        font-weight: 700;
+        margin: 25px 0 60px;
+    }
+}

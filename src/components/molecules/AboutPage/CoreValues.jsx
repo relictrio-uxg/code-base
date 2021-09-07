@@ -7,7 +7,7 @@ export class CoreValues extends Component{
  render(){
     const Body = styled.h1`
     width:100%;
-    height:600px;
+    height:700px;
     background:#F5F8FD;
     padding:0px 0px;
     margin:0px 0px 0px 0px;

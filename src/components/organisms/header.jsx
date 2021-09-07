@@ -2,6 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link, BrowserRouter as Router, } from 'react-router-dom';
 import { FaBars } from 'react-icons/fa'
+import Popup from '../atoms/Popup';
+import { useState } from 'react';
+import { GetStarted } from '../molecules/GetStarted';
 
 const Nav = styled.nav`
  background-color: #ffffff;
@@ -55,7 +58,6 @@ const NavMenu = styled.ul`
 display: flex;
 align-items: center;
 list-style: none;
-text-align: center;
 margin-right: -22px;
 
 @media screen and (max-width: 768px) {
@@ -115,9 +117,10 @@ text-decoration: none;
 `;
 
 const Header = ({toggle}) => {
+    const [ btnPopup, setBtnPopup ] = useState(false);
     return (
         <>
-        <Router>
+        
             <Nav>
                 <NavBarContainer>
                     <NavLogo to='/'><img src="https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/uploads/2020/12/Relictrio_logo@2x.png?time=1622425898" alt="logo" width="180px" height="58px" /></NavLogo>
@@ -141,12 +144,18 @@ const Header = ({toggle}) => {
                             <NavLinks to="/careers">Careers</NavLinks>
                         </NavItem>
                         <NavBtn>
-                        <NavBtnLink to="/contact">Get Started</NavBtnLink>
+                        <NavBtnLink onClick={() => setBtnPopup(true)}>Get Started</NavBtnLink>
+                        <Popup 
+                        trigger={btnPopup} 
+                        setTrigger = {setBtnPopup}
+                        >
+                            <GetStarted />
+                        </Popup>
                     </NavBtn>
                     </NavMenu>
                 </NavBarContainer>
             </Nav>
-            </Router>
+            
         </>
     )
 }

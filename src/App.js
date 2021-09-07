@@ -9,15 +9,18 @@ import Careers from './components/organisms/Careers';
 function App() {
   return (
     <div className="App">
-      <Header />
+      
       <Router>
+      <Header />
         <Switch>
           <Route path="/hire-developers" exact component={HireDeveloper}/>
            <Route path="/aboutus" exact component={AboutUs} /> 
            <Route path="/careers" exact component={Careers} />
         </Switch>
+        <Footer /> 
       </Router>
-     <Footer /> 
+     
+
     </div>
   );
 }

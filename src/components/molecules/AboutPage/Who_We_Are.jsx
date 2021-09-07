@@ -25,8 +25,9 @@ class WhoWeAre extends Component{
     @media only screen and (max-width: 600px) {
       margin:0px;
       width:100%;
-      border-radius: 42px 42px 0 42px;
+      border-radius: 50px 50px 0 50px;
       padding:80px 0px;
+      margin-top:80px;
     }
   `
 

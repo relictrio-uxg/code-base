@@ -10,6 +10,6 @@ export { CoreValues } from './CoreValues';
 export { Contact } from './Contact';
 
 
-export { default as PhotoGallery } from './Gallery';
+export { GalleryImg } from './Gallery';
 
 

@@ -1,6 +1,7 @@
 import React from 'react';
-import { BannerSection, Blog, Contact, CoreValues, FooterList, FurtherDetails, GetInTouch, IntroSection, JournySection, Mission, Strength, Vision, WhoWeAre } from '../molecules';
+import { BannerSection, PhotoGallery, Blog, Contact, CoreValues, FooterList, FurtherDetails, GetInTouch, IntroSection, JournySection, Mission, Strength, Vision, WhoWeAre } from '../molecules';
  
+import { GalleryImg } from '../molecules/AboutPage/Gallery';
 
 
 export const AboutUs = () => {
@@ -14,6 +15,7 @@ export const AboutUs = () => {
              <Strength />
                <Vision />
               <CoreValues />
+              <GalleryImg />
              <FurtherDetails />
              <Contact />
              <GetInTouch />  
